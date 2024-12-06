@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miryam">
+    <title>tabella regioni</title>
+    <style>
+        /* dati tecnici del css della pagina.
+        la tabella realizzata all'interno della pagina deve avere le seguenti caratteristiche:
+        -larghezza delle celle:200px; (messo 600 perchè piccoolo)
+        -colore sfondo riga intestazione #BD9001
+        -sfondo righe gialle #FEE799
+        -colore testo riga intestazione #FFFFC1
+        -border-collapse=collapse
+        */
+        table, td, th, tr {
+
+            border-collapse: collapse;
+            border: 0px;
+            border: solid;
+            border-color: rgb(215, 215, 215);
+            width: 600px;
+            text-align: center;
+
+              }
+
+        th {
+            
+            background-color: #BD9001 ;
+            color: #FFFFC1 ;
+           }
+
+        .color-1 {
+
+            background-color:#FEE799 ;
+            color:black ;
+        }
+
+        .color-2 {
+            
+              background-color: white;
+              color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>ALBERGO</th> <th>REGIONE</th> <th>STELLE</th> <th>COSTO CAMERA</th>
+            <!--la prima riga della tabella rappresenta l'intestazione della tabella-->
+        </tr>
+        <tr class="color-1">
+            <!--questa parte riguarde le informazioni sull'albergo Aristeo-->
+            <td>Aristeo</td> <td>Emilia-Romagna</td> <td>1</td> <td>76,00 Ꞓ</td>
+        </tr>
+        <tr class="color-2">
+            <!--questa parte riguarda le informazioni sull'albergo L'essenza-->
+            <td>L'Essenza</td> <td>Lombardia</td> <td>2</td> <td>87,00 Ꞓ</td>
+        </tr>
+        <tr class="color-1">
+            <!--questa parte riguarda le informazioni sull'albergo Sara-->
+            <td>Sara</td> <td>Lombardia</td> <td>4</td> <td>142.00 Ꞓ</td>
+        </tr>
+        <tr class="color-2">
+            <!--questa parte riguarda le informazioni sull'albergo Grand Hotel-->
+            <td>Grand hotel</td> <td>Emilia-Romagna</td> <td>5</td> <td>280,00 Ꞓ</td>
+        </tr>
+        <tr class="color-1">
+            <!--questa parte riguarda le informazioni sull'albergo Capriccio-->
+            <td>Capriccio</td> <td>Calabria</td> <td>4</td> <td>155,00 Ꞓ</td>
+        </tr>
+        <tr class="color-2">
+            <!--questa parte riguarda le informazio sull'albergo Ambassador-->
+            <td>Ambassador</td> <td>Calabria</td> <td>2</td> <td>84,00 Ꞓ</td>
+        </tr>
+        <tr class="color-1">
+            <!--questa parte riguarda le informazioni sull'albergo Aster-->
+            <td>Aster</td> <td>Emilia-Romagna</td> <td>3</td> <td>134,00 Ꞓ</td>
+        </tr>
+        <tr class="color-2">
+            <!--questa parte riguarda le informazioni sull'albergo Jazz-->
+            <td>Jazz</td> <td>Sardegna</td> <td>3</td> <td>134,00 Ꞓ</td>
+        </tr>
+    </table>
+</body>
+</html>
