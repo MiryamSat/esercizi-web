@@ -8,7 +8,7 @@
     <style>
         /* dati tecnici del css della pagina.
         la tabella realizzata all'interno della pagina deve avere le seguenti caratteristiche:
-        -larghezza delle celle:200px; (messo 600 perchè piccoolo)
+        -larghezza delle celle:200px; (messo 600px)
         -colore sfondo riga intestazione #BD9001
         -sfondo righe gialle #FEE799
         -colore testo riga intestazione #FFFFC1
@@ -19,7 +19,8 @@
             border-collapse: collapse;
             border: 0px;
             border: solid;
-            border-color: rgb(215, 215, 215);
+            border-color: rgba(215, 215, 215, 0.81);
+            /*width:200px;*/
             width: 600px;
             text-align: center;
 
