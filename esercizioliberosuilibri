@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miryam Saturno">
+    <meta name="description" content="pagina web dedicata alla letteratura">
+    <meta name="keywords" content="libri, letteratura,alfabeto,leggere,scrittura, informarsi,apprendere, compiti, studiare, analisi">
+    <title>MondoLibri</title>
+    <style>
+        body {
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            font-weight:normal;
+            background-image: linear-gradient(rgb(255, 255, 111), rgb(235, 182, 85), rgb(228, 141, 141));
+            margin: 200px; 400px; 400px; 200px;
+            padding: 5px;
+            border-width:10px;
+            border-style: groove;
+            border-color: red;  
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <p>
+        <h1>Libri consigliati da leggere:210 capolavori divisi per genere</h1>
+        <h2>In cerca di libri belli da leggere? Ecco la nostra lista di consigli (aggiornata nel 2024)</h2>
+    </p>
+  
+        <p> Una <strong>lista di libri belli</strong> da leggere non poteva mancare su LibriNews,
+            ecco allora la bellezza di 210 titoli consigliati,
+            centodieci non categorizzati, 100 divisi a seconda dei diversi generi letterari.
+            <strong>Tantissime idee di lettura</strong>  che chiunque,
+            volendo, può valutare più a fondo andando a reperire maggiori informazioni sui singoli libri.
+            Un tesoretto di classici moderni e contemporanei perfetto
+            per scoprire nuovi autori di cui innamorarsi e per arricchire la propria biblioteca di volumi che hanno superato la prova del tempo.
+        </p>
+        
+        <p> Iniziamo la lista dei libri da leggere assolutamente con <strong>110 capolavori</strong>  che prescindono dal genere, 
+            arricchita di dieci nuovi titoli
+             nel 2021, grazie anche ai preziosi commenti dei nostri lettori: una selezione trasversale
+             che spazia dalla letteratura russa a quella francese, dalla letteratura tedesca a quella statunitense moderna e contemporanea.</p>
+        
+        <p>
+             Per facilitare la lettura abbiamo inserito il tutto in un elenco organizzato per numero,
+             tuttavia questa non è una classifica: l’ordine in cui i titoli sono presentati è da intendersi come casuale,
+             inoltre è bene precisare che la nostra lista fa riferimento alla narrativa, non sono inclusi testi poetici né teatrali, 
+             né testi antichi (ai quali dedicheremo in futuro degli articoli specifici). Queste regole valgono anche per i libri consigliati per genere. 
+             Altra regola che abbiamo dovuto imporci per non esagerare con i consigli legati a singoli autori, 
+            è quella di suggerire massimo due volumi per scrittore/scrittrice.
+       </p>
+       
+       <p>
+            Ricordiamo ai lettori più esigenti che nei commenti in fondo 
+            è possibile trovare molti altri titoli consigliati dai nostri utenti.
+       </p>
+
+       <p>
+        Bene, iniziamo! <a href="https://www.librinews.it/libri-da-leggere/libri-belli-da-leggere-200-capolavori/" target="_blank">cliccando</a> sui titoli dei volumi si accede alle schede con prezzo, dati e recensioni presenti su Amazon.
+       </p>
+
+       <div>
+        <menu>
+            <ol>
+               <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+               <a href="#"><li>I migliori testi fantascientifici</li></a> 
+               <a href="#"><li>Libri horror consigliati</li></a> 
+               <a href="#"><li>Libri thriller da leggere</li></a> 
+               <a href="#"><li>I libri fantasy consigliati</li></a> 
+               <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+               <a href="#"><li>I migliori romanzi d’amore</li></a> 
+            </ol>
+        </menu>
+       </div>
+       <article>
+        <section>
+            <p><strong>Libri belli da leggere: 110 capolavori della letteratura mondiale:</strong></p>
+            <ol>
+                <a href="#"><li>Alla ricerca del tempo perduto, Marcel Proust</li></a> 
+                <a href="#"><li>I fratelli Karamazov di Fëdor Dostoevskij</li></a> 
+                <a href="#"><li>L’idiota, Fëdor Dostoevskij</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                <a href="#"><li>Libri divertenti da leggere: romanzi comici e umoristici</li></a> 
+                <a href="#"><li>I migliori romanzi d’amore</li></a> 
+                <a href="#"><li>Libri da leggere:110 capolavori della letteratura mondiale</li></a> 
+                <a href="#"><li>I migliori testi fantascientifici</li></a> 
+                <a href="#"><li>Libri horror consigliati</li></a> 
+                <a href="#"><li>Libri thriller da leggere</li></a> 
+                <a href="#"><li>I libri fantasy consigliati</li></a> 
+                
+            
+            
+            
+             </ol>
+        </section>
+       </article>
+
+       <div>
+
+       </div>
+   
+
+</body>
+</html>
