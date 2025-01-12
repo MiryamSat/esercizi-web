@@ -44,8 +44,8 @@
 
    
 
-      a .hover-author:hover {
-        color: #565656;
+      .hover-author:hover {
+        color:#565656;
         text-decoration: none;
       }
 
