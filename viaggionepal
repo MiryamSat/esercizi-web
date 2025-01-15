@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sito viaggi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin:30% 30% 30% 30%;
+        border:2%;
+        padding:2%;
+        background-color: rgb(225, 225, 225);
+    }
+section {
+    background-color: rgb(238, 216, 177);
+    border: 2px solid #f17624; 
+    border-style: groove;
+    border-radius: 1%;
+    box-shadow: #8f4c20;
+    margin: 5% 5% 5% 5%;
+    padding:  5% 5% 5% 5%;
+    text-align: justify;
+    line-height: 3,5;
+    letter-spacing: 2,5;
+    font-family: "Inter Tight", serif;
+   
+}
+  
+img {
+    width: 100%;
+    height: auto;
+    filter: brightness(120%) saturate(100%);
+}
+
+img:hover {
+    filter: sepia(50%);
+}
+
+a:link {
+        text-decoration:dashed;
+        color: #6427ae;
+        font-weight: bold;
+      }
+
+      a:visited {
+        text-decoration: none;
+        color: #d10c0c;
+        font-weight: bold;
+      }
+
+
+</style>
+
+</head>
+ 
+<body>
+    <section>
+        <p><h1>Il nostro viaggio in Nepal</h1></p>
+<img src="https://gimli.freetls.fastly.net/vivitravels/content/1024x680/destinazioni/stati/nepal/citta/kathmandu/viaggi/21ac9b0b-e818-4a4c-81ae-66a4e3479d97/images/nepal-annapurna.jpg">
+
+        <p><i>Le vette innevate dell’Himalaya, dall’Everest all’Annapurna, villaggi sperduti, 
+           un popolo spirituale e amichevole:
+           il Nepal è forti emozioni, polvere e rumori,
+           umiltà e gioia di essere al mondo. Ti portiamo a 
+           scoprirne ogni sua sfaccettatura,
+           anche con una cooking class, nel tour Nepal 360°</i></p>
+           <br>
+           <br> 
+        <p><h1>Che cosa vedere in Nepal: Sport estremi e meditazione nella Valle di Kathmandu</h1></p>
+
+       <img src="https://scontent.ccdn.cloud/image/vivitravels-it/75f8eeef-07c8-4971-9df3-209be5424b08/maxw-690.jpg">
+       
+
+        <p>Per molti versi la <b>Valle di Kathmandu</b> è il <b>Nepal</b>. Nata, secondo la leggenda, dal letto
+           di un lago sacro per volere della divinità buddhista Manjushri, è un mosaico di
+           campi terrazzati e sacre città-tempio che esaltano lo splendore dell’architettura e dell’artigianato nepalesi.
+           Oltre agli straordinari siti di <a href="#">Patan</a> e <a href="#">Bhaktapur</a>, dichiarati <b>Patrimonio dell’Umanità dell’UNESCO</b>,
+           ci sono numerosi villaggi newari da scoprire fuori dai più battuti circuiti turistici
+           . Molti luoghi interessanti della valle sono raggiungibili in minibus, taxi, mountain bike,
+           motocicletta o anche a piedi, grazie a una rete di antichi sentieri. Probabilmente, è più facile incontrare turisti
+            durante un <a href="https://www.getyourguide.it/-l169147/-tc71/?cmp=bing&ad_id=78340416616143&adgroup_id=1253444588673818&bid_match_type=be&campaign_id=710123566&device=c&feed_item_id=&keyword=nepal+trek&loc_interest_ms=&loc_physical_ms=1888&match_type=e&msclkid=f846521636e218f6708c3591d1bf5f61&network=o&partner_id=CD951&target_id=kwd-78340656524288&utm_adgroup=lc%3D169147%3Anepal%7Cfn%3Df8%7Cci%3D270%3Ahiking+%26+trekking&utm_campaign=dc%3D191%3Anp%7Clc%3D169147%3Anepal%7Cct%3Dcore%7Cln%3D29%3Aen%7Ctc%3Dall&utm_keyword=nepal+trek&utm_medium=paid_search&utm_query=trekking+himalaya&utm_source=bing&visitor-id=73D0E273CB1F401EBB2F53C1DE9DA7E7&locale_autoredirect_optout=true">trekking sullHimalaya</a> 
+            (che vi regalerà la possibilità di ammirare una delle più spettacolari meraviglie della natura) 
+           che non a una decina di chilometri da Kathmandu.
+           Giunti nella valle, perdetevi girovagando a piedi tra le viuzze di <b>Bhaktapur</b>, 
+           approfondite la vostra conoscenza dell’arte buddhista presso il Patan Museum e godetevi 
+           la vista sulla città al tramonto da Swayambhunath. Per sfuggire al traffico e all’inquinamento di Kathmandu,
+           alloggiate a Bodhnath, Bhaktapur o Patan.
+            A questo punto dovreste avere un paio di giorni da dedicare agli sport estremi:
+            <br>• <b>Bungee jumping</b>. Il bungee jumping del Last Resort si trova sull’orlo di un vertiginoso
+             precipizio di 160 metri che affaccia sulla gola del Bhote Kosi ed è uno dei dieci salti più alti del mondo. 
+             Le grida di chi si lancia nel vuoto riecheggiano per chilometri e chilometri in tutta la valle.
+            <br>• <b>L’altalena.</b> Una caduta libera di otto secondi che attanaglia lo stomaco, seguita da un’oscillazione
+             in stile Tarzan e da tre o quattro movimenti a pendolo lungo tutta l’estensione
+             della gola del Bhote Kosi, da fare in coppia.
+            <br>• <b>Canyoning</b>. Questo elettrizzante sport è una folle combinazione di discesa in corda doppia, arrampicata,
+             rafting e nuoto, sperimentata le prime volte nei canyon e nelle cascate nei dintorni del Last Resort e del Borderlands.
+            L’ultimo giorno recatevi a Bodhnath (Boudha) per rendere grazie delle esperienze vissute; 
+            potrete acquistare statuine del Buddha e bandiere di preghiera da portare a casa.</p>
+        
+        <p><h1>Che cosa mangiare: piatti tipici</h1></p>
+        <h2>Daal bhaat tarkari</h2>
+        <figure>
+            <img src="https://www.travel365.it/f/daal-nepal-__400x0__.jpeg.webp">
+        </figure>
+        <figcaption>Daal bhaat tarkari</figcaption>
+        <p>Il piatto tipico nepalese per eccellenza è il daal bhaat tarkari una zuppa di lenticchie con riso e verdure al curry.
+             E' possibile richiedere anche l'aggiunta di achar, i sottaceti, 
+             di dahi (cagliata o yogurt) o il papad (frittella di farina di lenticchie).</p>
+    
+             <h2>Momo</h2>
+             <figure>
+                 <img src="https://www.travel365.it/f/plateful-of-momo-in-nepal-__400x0__.jpg.webp">
+             </figure>
+             <figcaption>Momo</figcaption>
+             <p>Altro piatto facilmente reperibile in Nepal sono i momo, i ravioli di pasta di riso ripieni di carne di bufala
+                 (la mucca non viene mangiata perché considerata sacra)
+                 ma anche farciti con pollo, verdure, uova o formaggio, rigorosamente speziati e solitamente cotti al vapore.
+                Si trovano un po' ovunque dai banchetti lungo le strade ai locali e ristorantini e ogni famiglia ha la propria ricetta.</p>
+            </section>
+</body>
+</html>
