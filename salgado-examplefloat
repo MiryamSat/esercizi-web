@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body {
+            margin: 10px;px;
+            border:20px;
+            padding:40px;px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+h1 {
+    background-color: rgb(131, 226, 248);
+    text-align: center;
+}
+.primo-paragrafo {
+    width:200px;
+    height:300px;
+    padding: 0%;
+    margin:0%;
+    border: 0%;
+    background-color: rgb(157, 203, 203);
+    float: right;
+}
+
+img {
+    filter: brightness(110%) saturate(100%);
+}
+    </style>
+</head>
+<body>
+    <h1>5 Lessons Sebastião Salgado Has Taught Me About Street Photography</h1>
+    <div class="primo-paragrafo">
+        <p>I recently saw Sebastião Salgado’s “Genesis” exhibition in Toronto about a year ago,
+             and was blown away by the body of work. It was the most ambitious project I had ever seen– essentially Salgado aimed to
+             photograph the entire world. He photographed people, landscapes, and nature– and did so over 8 years and all around the globe.</p>
+    </div>    
+        <img src="https://i0.wp.com/erickimphotography.com/blog/wp-content/uploads/2015/03/188-av-sebastiao-salgado-3.jpeg?w=1351&ssl=1" width="600px" height="auto" alt="Salgado">
+   
+</body>
+</html>
