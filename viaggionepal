@@ -9,11 +9,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
 <style>
     body {
-        margin:30% 30% 30% 30%;
+       margin:5% 30% 30% 30%;
         border:2%;
         padding:2%;
         background-color: rgb(225, 225, 225);
     }
+
+
 section {
     background-color: rgb(238, 216, 177);
     border: 2px solid #f17624; 
@@ -57,6 +59,8 @@ a:link {
 </head>
  
 <body>
+
+
     <section>
         <p><h1>Il nostro viaggio in Nepal</h1></p>
 <img src="https://gimli.freetls.fastly.net/vivitravels/content/1024x680/destinazioni/stati/nepal/citta/kathmandu/viaggi/21ac9b0b-e818-4a4c-81ae-66a4e3479d97/images/nepal-annapurna.jpg">
