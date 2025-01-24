@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creazione di un menù</title>
+<style>
+    body {
+        margin: 0;
+    }
+.head {
+background-color: black;
+color: white;
+text-align: right;
+width:50%;
+padding:5px;
+border: 2%;
+float: left;
+      }
+
+.icona {
+    text-align:center; 
+    background-color:white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.logo {
+    width: 30%;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 5px;
+    margin-left: auto;
+   
+}
+
+li {
+    display: inline-block;
+    width: auto;
+    color: white;
+    text-align: end;
+    border: 5px%;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+}
+.spot-interno {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1px;
+    border:0px;
+}
+
+section {
+    margin:10% ;
+    border-top:5%;
+    border-right: 10%;
+    border-bottom: 5%;
+    border-left: 10%; 
+    padding: 5%;
+    background-color: rgb(243, 243, 164);
+}
+.articolo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="head">
+        <p>THE SUNDAY TIMES</p>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Uk</a></li>
+            <li><a href="#">world</a></li>
+            <li><a href="#">Bussiness & Money</a></li>
+        </ul>
+    </div>
+   
+    <div class="icona">
+        <img src="https://www.thetimes.com/d/img/logos/sundaytimes-with-crest-black-53d6e31fb8.png" class="logo">
+    </div>
+    <div class="spot-interno">
+        <p>Enjoy unlimited digital access.</p>
+        <p>Read trusted, award-winning journalism. Just £1 for 6 months.</p>
+        <button>subscribe</button>
+    </div >
+    <section>
+    <p><strong>live: British-Israeli hostage Emily Damari set for release</strong> </p>
+    <p><i>The ceasefire was delayed by nearly three hours, 
+        as the list of Israeli hostages to be released had not
+         been shared and the IDF continued strikes on Gaza</i></p>
+    <div class="articolo">
+             <p>Ninety Palestinians held in Israeli prisons are due to be freed 
+                after the release of three Israeli captives 
+                held in Gaza under a ceasefire deal between Hamas and Israel.
+                The ceasefire began at 09:15 GMT after a nearly three-hour delay 
+                during which Israeli attacks killed at least 19 Palestinians.
+                Read more
+                134 Updates
+                Auto-updates
+                67 More updates
+                6h ago (09:40 GMT)
+                Israel says 3 captives to be freed at 14:00 GMT; 4 more in a week
+                PM Netanyahu’s office says the release of three captives held in Gaza will take place 
+                after 14:00 GMT.
+                In a statement, it also said four other female captives would be freed in seven days.
+                The six-week, phase one ceasefire includes the gradual withdrawal of Israeli forces from 
+                central Gaza and the return of displaced Palestinians to northern Gaza.
+                The deal requires 600 truckloads of humanitarian aid to be allowed into Gaza every day
+                 of the ceasefire, 50 carrying fuel, with 300 of the trucks allocated to the north, where
+                  conditions for civilians are particularly harsh.
+                </p>
+               
+    
+    <img src="https://www.thetimes.com/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fca01721e-5a29-43b6-bd95-5b14c72c25a3.jpg?crop=5000%2C3333%2C0%2C0&resize=960" style="float: right; background-color: beige; width: 50%; height: auto;">
+</div>
+</section>
+</body>
+</html>
