@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+    <style>
+body {
+    font-family: "Manrope", serif;
+    font-size: large;
+}
+        /* questa parte è dedicata alla creazione del menù*/
+        ul {
+            list-style: none;
+        }
+li {
+    display:inline;
+    padding: 20px;
+    width: 100%;
+    margin: 32px;
+    font-family: "Manrope", serif;
+    font-weight: bold;
+    font-size: large; 
+}
+
+nav {
+    background-color: rgb(252, 252, 252);
+    border-bottom: 2px rgb(132, 13, 13) solid;
+}
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+a:hover {
+    text-decoration: underline rgb(132, 13, 13) dotted;  
+}
+
+.schemaorg { 
+    color:rgb(132, 13, 13) ;
+}
+
+/* questa parte è dedicata alla formattazione del testo*/
+.box1 {
+      margin-top: 8%;
+      width: 45%; 
+      padding: 5%%;
+      border: 1px solid transparent;
+      box-sizing: border-box;
+      vertical-align: top; 
+      margin-left: 6%;
+      }
+
+.box2, .box3 {
+    display: inline-block;
+      width: 45%; 
+      padding: 5%;
+      border: 1px solid transparent;
+      box-sizing: border-box;
+      vertical-align: top; 
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="schemaorg">Schema.org</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Schemas</a></li>
+            <li><a href="#">Validate</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+<section>
+    <div class="box1">
+        <h1> <span style="color: rgb(132, 13, 13);">Schema.org</span> is a collaborative, community activity with a mission to create,
+             maintain, and promote schemas for structured data on the Internet, on web pages,
+              in email messages, and beyond.</h1>
+    </div>
+    <div class="box2">
+        <p>Schema.org vocabulary can be used with many different encodings, including RDFa, 
+            Microdata and JSON-LD. These vocabularies cover entities, relationships between entities 
+            and actions, and can easily be extended through a well-documented extension model.
+             As of 2024, over 45 million web domains markup their web pages with over 450 billion Schema.org objects. 
+            Many applications from Google, Microsoft, Pinterest, Yandex and others already use these vocabularies
+             to power rich, extensible experiences.</p>
+             <p>Founded by Google, Microsoft, Yahoo and Yandex, Schema.org 
+                vocabularies are developed by an <a href="#"class="schemaorg">open community</a> process,
+                 using the <a href="#"class="schemaorg">public-schemaorg@w3.org</a> mailing list and through <a href="#"class="schemaorg">GitHub</a>.</p>
+    </div>
+
+    <div class="box3">
+        <p>A shared vocabulary makes it easier for webmasters and developers to decide on a schema and get
+             the maximum benefit for their efforts. 
+            It is in this spirit that the founders, together with the larger community have come together -
+             to provide a shared collection of schemas.</p>
+             <p>We invite you to <a href="#"class="schemaorg">get started!</a></p>
+             <p>View our blog at <a href="#"class="schemaorg">blog.schema.org</a> or see <a href="#">release history</a> for version 28.1.</p>
+    </div>
+</section>
+   
+</body>
+</html>
