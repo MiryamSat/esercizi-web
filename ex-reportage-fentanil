@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: black;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        button {
+            color: white;
+            background-color: blue;
+        }
+        li {
+            display: inline-block;
+          
+            padding: 20px;
+    width: 10%;
+    margin: 1px;
+        }
+        form {
+            display: inline-block;
+        }
+        div {
+             border: 200%;
+             margin: 100px;
+             padding: 80px;
+        }
+        p {
+            margin-left: 200px;
+            margin-right: 200px;
+            border: 50px;
+            font-size: x-large;
+            font-weight:normal;
+            word-spacing: 5%;
+            line-height: 30px;
+            white-space: normal;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        figcaption {
+            color: gray;
+        }
+        .link-eccezione {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <!--dentro nav deve esserci un menù e due pulsanti:1)per iscriversi; 2)uno per entrare-->
+        <ul>
+            <li><a href="https://www.nytimes.com/">Home</a></li>
+            <li><a href="https://www.nytimes.com/section/us">U.S</a></li>
+            <li><a href="https://www.nytimes.com/section/world">world</a></li>
+            <li><a href="https://www.nytimes.com/section/business">Bussiness</a></li>
+            <li><a href="https://www.nytimes.com/section/arts">Arts</a></li>
+            <li><button><a href="https://www.nytimes.com/subscription?campaignId=9YU8R&source=bar1&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsection%2Farts">SUBCRIBE FOR $0.50/WEEK</a></button></li>
+            <li> <button><a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fonboarding-offer%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fsection%252Farts&asset=masthead">LOG IN</a></button></li>
+        </ul>
+    </nav>
+    <div>
+        <img src="https://static01.nyt.com/images/2024/12/29/multimedia/29mexico-fentanyl-dispatch-1-ljqz/29mexico-fentanyl-dispatch-1-ljqz-superJumbo.jpg?quality=75&auto=webp">
+        <p>We had just walked into the fentanyl lab when the cook poured a white powder into a stockpot full of liquid.
+           He began mixing it with an immersion blender and fumes rose from the pot, filling the small kitchen.
+        </p>
+        
+        <p>We wore gas masks and hazmat suits, but the cook had on only a surgical mask. He and his partner 
+                had rushed here to fulfill an order for 10 kilograms of fentanyl. While one sniff of the toxic chemicals could kill us, 
+                they explained, they had built up a tolerance to the lethal drug.
+        </p>
+             
+         <p>But then, the cook jerked back.
+         </p>
+             
+         <p>“It really hit me,” he said, looking dazed. “I need to take a breather.”
+         </p>
+             
+         <p>The young man rushed out of the room.
+         </p>
+             
+         <p>In September, a war broke out <a href="#" class="link-eccezione"> Mexico’s Sinaloa cartel.</a>
+            Fighting between the rival factions has terrorized the northwestern state of Sinaloa in the months since, 
+            leaving hundreds dead and causing a billion dollars in economic damage, business leaders say.
+            The Mexican government responded by sending in a swarm of soldiers and making a slew of arrests.
+        </p>
+        
+        <img src="https://static01.nyt.com/images/2024/12/29/multimedia/29mexico-fentanyl-dispatch-4-gjbt/29mexico-fentanyl-dispatch-4-gjbt-superJumbo.jpg?quality=75&auto=webp">
+        <figcaption>Mexican Navy personnel patrolling near a market on the outskirts of Culiacán last month.</figcaption> 
+        <img src="https://static01.nyt.com/images/2024/12/29/multimedia/29mexico-fentanyl-dispatch-2-lgft/29mexico-fentanyl-dispatch-2-lgft-superJumbo.jpg?quality=75&auto=webp">
+        <figcaption>The city of Culiacán is the capital of Sinaloa State, a cartel stronghold.</figcaption> 
+            
+        <p>After President-elect Donald J. Trump threatened tariffs if the country didn’t stop drugs from 
+           crossing the border, Mexico’s security forces announced their largest seizure of fentanyl ever
+           this month: 20 million doses of the drug.
+        </p>
+             
+        <p>Criminal groups have had to adjust to the new conditions on the ground. 
+           Fearing law enforcement raids or attacks by their rivals, they say they’re
+           moving their labs around more often than usual and producing drugs in new locations.
+        </p>
+             
+        <p>And yet, even in the middle of all-out war and intense government pressure, 
+           Mexico’s cartels are still doing a swift business. In the last five years, illicit fentanyl,
+           a synthetic opioid, became the leading cause of death for young adults in the United States.
+        </p>
+             
+        <p>We — two New York Times reporters and one photographer — 
+           had been trying for months to get access to a fentanyl lab run by the Sinaloa cartel, which the U.S. 
+           government says is responsible for much of the product flooding into the United States. 
+           But every time we thought we were getting close, some unforeseen outburst of violence derailed our plans.
+        </p>
+             
+        <p>When we came to the capital city of Culiacán in September,
+           a van appeared on the side of a road with at least five bodies inside. 
+           No one at the scene knew which faction of the cartel the men had belonged to or who had killed them. 
+           That night, we heard shots right outside our hotel — the discovery of the bodies had apparently prompted
+           gun battles between the rival groups. It was too unsafe to get into the lab.
+        </p>
+
+    <img src="https://static01.nyt.com/images/2024/12/29/multimedia/29mexico-fentanyl-dispatch-3-vzfp/29mexico-fentanyl-dispatch-3-vzfp-superJumbo.jpg?quality=75&auto=webp">
+    <figcaption>A police officer walking journalists through the burned 
+        house of a cartel member in the municipality of Elota in Sinaloa State in September.</figcaption>
+    
+        <p>The second try was scuttled because of clashes between 
+           security forces and cartel gunmen; the third because of an incursion by one group that
+            left several houses burned out. We saw a demonstration of fentanyl being made in a cartel
+            safe house but could not get into the location where the cooks produced larger batches.
+        </p>
+
+        <p>Then, on our fourth try, we finally got in.
+        </p>
+
+        <p>The lab was hidden in a house right in the city center in Culiacán, 
+           on a bustling street full of pedestrians, cars and food stands.
+           There were no smells or fumes outside that would have alerted a passer-by 
+           to the large quantities of fentanyl being cooked behind the door.
+           It was dark inside save for a room at the very back, which lit up in
+           bright red flames as soon as we arrived. Two men hustled to put out the fire coming from a pot on the stove,
+           surrounded by smoke that had a reddish tint.
+        </p>
+    <video width="100%" height="auto" controls autoplay loop>
+    <source src="https://vp.nyt.com/video/2024/12/27/131531_1_29mexico-fentanyl-video-clip_wg_1080p.mp4" type="video/mp4">
+    </video>
+
+        <p> After a few minutes, they emerged triumphant and apologetic: A chemical reaction had caused a small explosion,
+            explained the main cook, a 26-year-old wearing a navy shirt and slacks.
+            We gained access thanks to one of our contacts, who knew a drug trafficker 
+            who did business with the cooks. The contact convinced the men that we would not reveal their
+            identities or the lab’s location. The men said they risked deadly reprisals by talking to reporters,
+            and spoke on the condition of anonymity.
+        </p>
+    
+        <p>The main cook and his partner shook our hands. Their boss, a middle-aged man hovering nearby,
+         allowed us to take one phone and one camera inside. They warned us to be ready for law enforcement to appear at any moment.
+        </p>
+    
+        <p>“They busted in on us this morning,” the boss said. Earlier that day,
+         he explained, the Mexican military had raided one of his crew’s labs, which forced them to bring their 
+         material to this makeshift site. Image
+        </p>
+
+    <img src="https://static01.nyt.com/images/2024/12/29/multimedia/29mexico-fentanyl-dispatch-10-zfvp/29mexico-fentanyl-dispatch-10-zfvp-superJumbo.jpg?quality=75&auto=webp">
+    <figcaption>The boss of a Sinaloa cartel fentanyl cooking operation.</figcaption>
+        <p>“If they bust in here, you can stay, but hit the floor,” the main cook told us. “We’re running.”
+        </p>
+
+        <p>After putting on gas masks, hazmat suits and gloves, we went into the kitchen.
+        </p>
+        
+        <p>On a round side table near the doorway, illuminated by a fluorescent lamp,
+           was a pile of white powder that the men told us was finished fentanyl.
+           It looked to be more than a pound — most likely enough for more than 200,000 doses.
+        </p>
+
+       <p>The countertop was dotted with half-empty Corona bottles and metal containers with chemicals.
+         On one tray lay a small mountain of crystal flakes that the main cook said was sodium hydroxide, a fentanyl ingredient.
+        </p>
+
+    <img src="https://static01.nyt.com/images/2024/12/29/multimedia/29mexico-fentanyl-dispatch-6-bhcg/29mexico-fentanyl-dispatch-6-bhcg-superJumbo.jpg?quality=75&auto=web">
+    <figcaption>White powder, purportedly finished fentanyl, sitting on a table at left.>ù</figcaption>
+
+        <p>The men were leaning over two large saucepans sitting on burners that had been set to medium low. 
+        They said they were at the first stage of the process, activating the main chemical ingredient they use to make fentanyl.
+         There was one small window and a plastic floor fan for ventilation.
+        </p>
+        <p>Normally, the cooks wear gas masks while making fentanyl, to protect against toxic exposure to chemicals.
+           But in their scramble to restart the process after the military raid, they had time only to find cloth or surgical masks, they said.
+          That’s why the main cook’s partner had to run out of the room when fumes started permeating the air.
+        </p>
+
+        <p>He came back, cigarette in hand, and handed the main cook acetone, another chemical ingredient for fentanyl
+         that was sitting in the kitchen pantry next to a bottle of hot sauce. On a wall nearby hung a print of
+          Leonardo da Vinci’s “Last Supper.”
+        </p>
+
+        <p>The main cook had started working for the cartel at 16, he said, 
+        cooking methamphetamine and later fentanyl. While teaching himself how to run a drug lab,
+         he stayed in school, studying oral medicine. The would-be dentist never took up the trade.
+        </p>
+    </div>
+    
+</body>
+</html>
