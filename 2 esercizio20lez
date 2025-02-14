@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            float: none;
+            margin:1px 2px 1px 2px;
+        }
+        .box-1 {
+            min-height: 100px;
+            width: 25%;
+           
+            
+        }
+        .box-1, img {
+            width:70%;
+           height: auto;
+           object-fit: cover;
+           overflow: hidden;
+           
+        }
+.box-2 {
+       position: relative;
+       top: -220px;
+       left: 4%;
+       width: 150px;
+       height: 190px;
+       min-height: 190px;
+       max-width: 150px;
+       font-weight: 500;
+        color: rgb(237, 230, 230);
+        font-style: normal;
+        text-transform: uppercase;
+        padding: 5px;
+         text-align: left;
+        }
+
+         {
+            background-color: rgba(0, 0, 0, 0.697);
+        }
+        .box-3 {
+           display:flex;
+           justify-content: end;
+          text-align:end;
+          margin-top: -600px;
+          margin-right: 80px;
+          padding-top: -5%;
+          padding-bottom: 20%;
+          border: -10px;
+        }
+     
+.rumore, h2 + h1 {
+    background-color: rgba(0, 0, 0, 0.762);
+}
+.scatola {
+    overflow: hidden;
+}
+    </style>
+</head>
+<body>
+    <div class="scatola">
+    <div class="box-1">
+        <img src="https://staticfanpage.akamaized.net/wp-content/uploads/2025/01/GM_PODCAST-ART-1024x576.jpg">
+    </div>
+    <div class="box-2">
+        <h2 class="rumore">FAI RUMORE</h2>
+        <h1>CON NOI</h1>
+    </div>
+    <div class="box-3">
+        <h1 class="h1">Perchè è importante abbonarsi a Fanpage.it</h1>
+    </div>
+</div>
+</body>
+</html>
