@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+
+<style>
+
+.menù ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+body {
+    background-color: beige;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+
+.menù li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+figcaption {
+    color: rgb(74, 74, 72);
+}
+
+.box {
+    margin:50px;
+    padding:1px;
+    border:50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+img:hover {
+filter: sepia();
+}
+
+img {
+    overflow: hidden;
+}
+
+@media (max-width:1001px) and (min-width:301px) {
+    img {
+        overflow: hidden;
+        width:40% ;
+        height:30%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:1001px) and (min-width:301px) {
+    .menù ul {
+        display:block;
+        background-color: black;
+        color: white;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+
+    .menù li {
+        list-style-type: none;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+footer {
+    display: inline;
+}
+.form-contatto {
+    color: black;
+}
+
+.img-contatti {
+    width:50px ;
+    height:50px ;
+   
+}
+
+.img-contatti:hover {
+    transform: rotate(180deg);
+    transition: width 4s;
+    filter: none;
+}
+
+</style>
+
+
+</head>
+<body>
+  <!--la prima cosa da fare è creare un menù orizzontale. i menù vengono fatti attraverso l'uso di elenchi-->
+  <nav class="menù">
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Racconti</a></li>
+    <li><a href="#">Miti e Leggende</a></li>
+    <li><a href="#">News</a></li>
+</ul>
+  </nav> 
+  <!--creo un contenitore grande all'interno del quale vado a posizionare i testi e le immagini varie-->
+  <br>
+  <br>
+  <br>
+<br>
+
+<div class="box">
+<h1>Gli Yokai, i Mostri Delle Leggende Giapponesi</h1>
+<h4>Di Lucia Tsujiguchi</h4>
+<br>
+<br>
+<p>Dall’alba dei tempi, gli esseri umani cercano risposte o ragioni che possano spiegare tutti quei fenomeni che sembrano sfuggire a ogni logica,
+     e le trovano creando leggende e miti che vengono poi tramandati nei secoli: racconti di personaggi con poteri straordinari, divinità,
+      eroi e mostri. In Giappone, molte di queste storie hanno come protagonisti gli yokai,
+     creature soprannaturali che abitano il confine tra il mondo reale e quello fantastico.
+    </p>
+
+<img src="https://s3.voyapon.com/wp-content/uploads/sites/5/2021/11/12005047/yokai_04-1024x494-1.jpg">
+<figcaption>Il Mitsukuni di Utagawa Kuniyoshi sfida lo spettro dello scheletro evocato dalla principessa Takiyasha (1845-46).
+     Immagine: British Museum</figcaption>
+     <br>
+     <h1>Gli Yokai e la loro Origine in Giappone</h1>
+     <p><strong>Uno yokai (妖怪)è un’esistenza misteriosa, un fenomeno al di là della comprensione umana che può essere spiegato solo 
+        come un’entità soprannaturale.</strong> Fanno parte della tradizione e della cultura giapponese, in particolare quelle delle piccole città e dei villaggi, dove queste leggende si tramandano di generazione in generazione. 
+        Questi mostri si muovono attraverso i sottili confini tra realtà e illusione, convinzione e incredulità, bene e male.</p>
+
+        <img src="https://s3.voyapon.com/wp-content/uploads/sites/5/2021/11/12005334/yokai_03.jpg">
+<figcaption>ōfu-kozō (Il ragazzo del tofu) Immagine: University of Oregon</figcaption>
+
+<p>Insomma, nel Giappone di una volta, <strong>ogni fenomeno strano e incomprensibile alla
+    mente umana veniva attribuito alle azioni di uno yokai</strong> . Forse questo può essere difficile da comprendere oggi, 
+     circondati come siamo dalla tecnologia che in pochi secondi ci dà accesso a ogni informazione. 
+     <strong>Ma per meglio comprendere l’origine degli yokai,
+        è necessario tornare al Giappone di qualche secolo fa</strong> .
+    </p>
+
+<p>Immaginatevi nel mezzo della notte, su una strada poco illuminata di un piccolo villaggio sperduto
+     nel Giappone rurale. Siete in un’epoca in cui la tecnologia come la conosciamo non esiste ancora,
+      e l’unica fonte di notizie sono i commercianti che arrivano da città lontane e le voci che si diffondono per 
+      la regione. È una piovosa notte d’estate, così placida che potete udire il vostro stesso respiro. All’improvviso, sentite un soffio di aria fredda sulla nuca e qualcosa vi urta una gamba,
+     ma quando vi girate non vedete nessuno.
+</p>  
+ 
+     <img src="https://s3.voyapon.com/wp-content/uploads/sites/5/2021/11/12010020/yokai_05-1-704x1024-1.jpg">    
+<figcaption>Kawase Hasui, Selezione di vedute del Tokaido – Notte di pioggia a Maekawa. Immagine: Artelino</figcaption>  
+
+<p>È probabile che al giorno d’oggi ci siano delle spiegazioni scientifiche per questo fenomeno, ma nel Giappone 
+    rurale di qualche secolo fa, 
+    l’unica spiegazione a eventi simili era l’esistenza degli yokai. <strong>A poco a poco, 
+        queste creature cominciarono a diventare parte della vita quotidiana, della tradizione e della cultura del
+         paese.</strong> 
+</p>
+         
+<p>Oggi, la credenza negli yokai è così radicata nella società giapponese 
+            che sono ancora i protagonisti di alcuni fenomeni inspiegabili.
+</p>
+
+<br>
+<br>
+<h1>Dove Vivono gli Yokai Giapponesi? Quando Appaiono?</h1>
+<p><strong>L’origine degli yokai è radicata in alcuni principi dello shintoismo, 
+    come l’animismo e il culto della natura.</strong>  Lo shintoismo è la religione più antica del Giappone, 
+    e il suo nome significa letteralmente “la via degli dèi”. Si basa sull’adorazione dei kami 
+    (神, le divinità giapponesi) che secondo lo shintoismo <strong>si trovano ovunque, 
+        sia in natura che in esseri animati e inanimati.</strong> </p>
+<img src="https://s3.voyapon.com/wp-content/uploads/sites/5/2021/11/12010534/yokai_01.jpg">
+<figcaption>Hyakki Yakō (百鬼夜行) di Kawanabe Kyōsai, British Museum.</figcaption>
+
+<p> <strong>Gli yokai si trovano al confine tra il mondo reale e quello divino.</strong> 
+     Poiché preferiscono evitare il contatto con l’uomo e vivere in isolamento,
+      a volte abitano luoghi naturali considerati sacri secondo lo shintoismo, come montagne, 
+      foreste e fiumi. Ma ci sono anche yokai che vivono in armonia con il nostro mondo: un esempio sono gli 
+     <strong>tsukumogami (付喪神)</strong> ,
+    un tipo di yokai che si manifesta in utensili e oggetti tipici giapponesi.
+</p>
+
+<p>Proprio perché gli yokai occupano uno spazio di confine, 
+    <strong>amano apparire al crepuscolo, quando il giorno si fonde alla notte.</strong>
+     Amano anche le giornate grigie, quando i raggi del sole filtrano a malapena attraverso le nuvole.
+</p>
+
+  
+    </div>
+
+    <footer>
+        <div>   
+           <a href="file:///C:/Users/39350/Desktop/Programmazione/ESERCIZI%20LIBERI/racconti-vari-cantatti.html"><img src="https://e1.pngegg.com/pngimages/401/429/png-clipart-sharingan-all-files-mangekyo-sharingan.png" class="img-contatti"></a> 
+           <figcaption>contattaci!</figcaption>
+       
+        </div>
+    </footer>
+</body>
+</html>
