@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="racconti-vari-contatti.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+/* label in questo modo mi consente di ottenere un form che abbia gli elementi uno sotto l'altro*/
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-style {
+  width:350px;
+  height:auto;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: beige;
+}
+
+.img {
+  width:400px ;
+  height: 350px;
+  transition-timing-function: ease-out;
+  transition: width 2s;
+  overflow: hidden;
+}
+.img:hover {
+  width:200px ;
+  height: 150px;
+  transform: skew(28deg);
+  transform: rotate(30deg);
+  filter: brightness(80%);
+  overflow: hidden;
+}
+
+
+@media (max-width:1001px) and (min-width:301px) {
+.img {
+    overflow: hidden;
+    width:40% ;
+    height:30%;
+    object-fit: contain;
+    transform: none;
+    transition: none;
+}
+}
+
+@media (max-width:1001px) and (min-width:301px) {
+
+.img:hover {
+  width:200px ;
+  height: 150px;
+  overflow: hidden;
+  transform: none;
+  transition: none;
+}
+}
+
+@media (max-width:1001px) and (min-width:301px) {
+form .form-style {
+    display:flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    overflow: hidden;
+    width:150px;
+    height:auto;
+}
+
+@media (max-width:1001px) and (min-width:301px) {
+
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    background-color: #dcf424;
+    color: blue;
+}
+</head>
+<body>
+    <div class="form-style">
+    <form>
+        <label for="name">Nome</label>
+        <input type="text" name="name" placeholder="Inserisci il tuo nome" required>
+  
+        <label for="cognome">Cognome</label>
+        <input type="text" name="cognome" placeholder="Inserisci il Cognome" required>
+    
+    <label for="email">email</label>
+    <input type="email" name="email" placeholder="email" required>
+
+    <label for="message">inviaci il tuo messaggio</label>
+    <textarea placeholder="scrivi qui il tuo messaggio" maxlength="2000" required></textarea>
+    
+   <button type="submit">Invia</button> 
+
+
+    </form>
+</div>
+
+<div>
+    <img src="https://pngimg.com/uploads/naruto/naruto_PNG37.png" class="img">
+</div>
+
+<div>
+    <img src="">
+</div>
+</body>
+</html>
