@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--installazione bootstrap in locale-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Bootsrap/bootstrap/css/bootstrap.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+<!--installazione bootstrap in locale-->  
+
+<title>Esercizio.carosello</title>
+
+<style>
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#foto {
+    height: 1000px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.paragrafo {
+  display:flex;
+  height:400px ;
+  width:500px ;
+  padding: 10px;
+  margin: 20px;
+  border: 20px;
+  color: transparent;
+  animation-name: paragrafo;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+
+}
+   
+@keyframes paragrafo {
+    from {
+          color: transparent;
+          margin-right: -1000px;
+        }
+    to {
+          color: rgba(29, 28, 28, 0.633);  
+          margin-right: 75px;
+        }
+     }
+
+
+</style>
+</head>
+<body>
+
+<!--inizio menù di navigazione--> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lo Chalet</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Camere&Suite</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Welness&Spa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cucina</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Info e Prenotazioni</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--fine menù di navigazione--> 
+
+<!--Inizio del carosello-->
+<br>
+<br>
+<br>
+<div id="carouselExampleIndicators" class="carousel slide">
+   
+    <!--indicatori-->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!--inizio delle immagini del carosello-->
+    <div class="carousel-inner carousel-fade" data-bs-ride="carousel">
+        <!--primo elemento del gruppo-->
+      <div class="carousel-item active">
+        <img src="https://cdn.pixabay.com/photo/2021/12/13/14/57/trees-6868446_1280.jpg" class="d-block w-100" id="foto" alt="Montagne innevate">
+      </div>
+       <!--secondo elemento del gruppo-->
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/1269896918/it/foto/rendering-3d-della-camera-da-letto-del-cottage-invernale.jpg?s=2048x2048&w=is&k=20&c=boFWm6yubKb7nUfU11OXHLnG4k5ghLAQRpDglfnFrgk=" class="d-block w-100"  id="foto" alt="Le nostre stanze">
+      </div>
+       <!--terzo elemento del gruppo-->
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/1028095390/it/foto/sauna-immagine-calda.jpg?s=2048x2048&w=is&k=20&c=cZ_yUgzP4zF7Y3hqAP9PBxOy7WwysSXoTfAzKqDi5wY=" class="d-block w-100"  id="foto" alt="La nostra Spa">
+      </div>
+    </div>
+
+    <!--inizio gruppo dei bottoni-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <!--fine gruppo dei bottoni-->
+ 
+</div>
+
+<!--fine del carosello-->
+
+<br>
+<br>
+<br>
+<div class="paragrafo">
+<p>
+  <h1>Vuoi trascorrere una vacanza nel nostro Chalet sulle Dolomiti? 
+    Ad accoglierti troverai un ambiente raccolto e e rilassato che non rinuncia però alla ricerca del piacere.
+   Potrai goderti la nostra zona Wellness&Spa e assagiare la nostra cucina fatta di tradizione e innovazione
+</h1>
+</p>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<p style="text-align: center;">I nostri pacchetti</p>
+<!--inizio delle cards-->
+<div class="card-group">
+  <div class="card">
+    <img src="https://th.bing.com/th/id/OIP.IJ8My23Ks9KqKZsZE26nzwHaE8?rs=1&pid=ImgDetMain" class="card-img-top" alt="Il nostro pacchetto relax" height="350px">
+    <div class="card-body">
+      <h5 class="card-title">Pacchetto "Spa&Wellness Inclusive"</h5>
+      <p class="card-text">Goditi una settimana nel nostro Chalet con accesso illimitato alla nostra Spa: 
+        accesso alla sauna illimitato e piscina riscaldata + tre massaggi a scelta (decontratturante,svedese e Hot Stone).
+        Incluso in questo pacchetto anche colazione, pranzo, cena e abbonamento alla pista da sci
+      </p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.10a-tours.com/wp-content/uploads/2019/10/Allibert-Dolomites-11-Self-guided-trekking-in-the-Italian-Dolomites.jpg" class="card-img-top" alt="Il nostro pacchetto trekking" height="350px">
+    <div class="card-body">
+      <h5 class="card-title">Pacchetto "Trekking sulle Dolomiti"</h5>
+      <p class="card-text">Se hai voglia di avventura sei nel posto giusto! Il nostro team organizza trekkin da gruppi di 5/8 persone con a capo una guida esperta.
+        Ogni giorno hai a disposizione un percorso facile, uno impegnativo e una variante alpina tra cui scegliere.
+        Incluso in questo pacchetto hai colazione inclusa e uno sconto del 20% presso tutti i rifugi affiliati alla nostra struttura.
+        <br>
+        <span style="color: red;">NB! Questo pacchetto è disponibile a partire dal mese di Maggio fino al mese di Ottobre!</span>
+      </p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://th.bing.com/th/id/OIP.AlSZWzvU2l14FGy_on7lCgHaE6?rs=1&pid=ImgDetMain" class="card-img-top" alt="Il nostro pacchetto famiglia" height="350px">
+    <div class="card-body">
+      <h5 class="card-title">Pacchetto "Settimana Bianca in famiglia"</h5>
+      <p class="card-text">Se vuoi trascorrere con i tuoi figli una settimana lontano dal rumore della città questo è il pacchetto che fa per te!
+        Con questo pacchetto, non solo avrai incluso un abbonamento familiare alle piste da sci ma avrai a disposizione anche il nostro servizio di attività per bambini
+         e la possibilità di accedere a due lezioni gratuite di snowboard per i più grandi.
+         Incluso in questo pacchetto anche colazione e pranzo.
+      </p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
