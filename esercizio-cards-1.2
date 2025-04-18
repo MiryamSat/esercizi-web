@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+<!--installazione bootstrap in locale-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Bootsrap/bootstrap/css/bootstrap.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+<!--installazione bootstrap in locale-->  
+
+<title>Esercizio-cards-bootstrap</title>
+
+<style>
+ body {
+    margin: 0px;
+    padding: 0px;
+      }   
+
+/*questo è il contenitore più grande dei contenitori delle card di bootstrap*/
+ .inlinea {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 50px;
+          }
+
+/*questi tre contenitori (scritta/decorazione-scritta/scritta-linea) sono i contenitori della scritta e del bottone che si trova sopra le cards*/
+ .scritta {
+    text-align: center;
+    border: top -35px;
+          }
+
+ .decorazione-scritta {
+    border-top: solid orange;
+
+                      }
+ .scritta-linea {
+    margin-top: -20px;
+                }
+      
+</style>
+
+</head>
+
+<body>
+    <!--inizio della scritta+riga+bottone-->
+    <br>
+    <br>
+    <div class="decorazione-scritta"> 
+        <div class="scritta-linea">
+    <h2 class="scritta">BLOG NEWS IN EVIDENZA</h2>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="d-grid gap-2 col-3 mx-auto">
+        <button class="btn btn-warning" type="button">SCOPRI TUTTI GLI ARTICOLI</button>
+        
+    </div>
+ <!--fine della scritta+riga+bottone-->
+    <br>
+    <br>
+    <br>
+    <!--Inizio delle cards-->
+    <div class="inlinea">
+            <div class="card" style="width:18rem;">
+                <img src="https://www.e-stayon.com/images/thumbs/0211611_Come%20funziona%20la%20friggitrice%20ad%20aria%20HP%20banner_726.jpeg.webp" class="card-img-top" alt="friggitrice ad aria">
+                <div class="card-body">
+              
+                  <p class="card-text">Come funziona la friggitrice ad aria</p>
+                  <a href="#" class="btn btn-warning">Leggi di più</a>
+                </div>
+          
+            </div>
+    </div>   
+
+     <div class="inlinea">
+            <div class="card" style="width:18rem;">
+                <img src="https://www.e-stayon.com/images/thumbs/0293664_grafiche_726.jpeg.webp" class="card-img-top" alt="Stay on">
+                <div class="card-body">
+                  <p class="card-text">Nuove etichette energetiche per Smarphone e Tablet: cosa cambia e cosa sapere</p>
+                  <a href="#" class="btn btn-warning">Leggi di più</a>
+                </div>
+            </div>
+    </div> 
+
+    <div class="inlinea">
+            <div class="card" style="width:18rem;">
+                <img src="https://www.e-stayon.com/images/thumbs/0294192_HP%20banner-100_726.jpeg.webp" class="card-img-top" alt="Stay on">
+                <div class="card-body">
+                  <p class="card-text">Come progettare e arredare una stanza da gaming.</p>
+                  <a href="#" class="btn btn-warning">Leggi di più</a>
+                </div>
+            </div>
+
+    </div>
+
+    <div class="inlinea">
+            <div class="card" style="width:18rem;">
+                <img src="https://www.e-stayon.com/images/thumbs/0294706_grafiche_726.jpeg.webp" class="card-img-top" alt="Stay on">
+                <div class="card-body">
+                  <p class="card-text">Arriva Meta AI: come usarlo su WhatsApp e Facebook</p>
+                  <a href="#" class="btn btn-warning">Leggi di più</a>
+                </div>
+            </div>
+    </div>
+       <!--fine delle cards--> 
+      
+ 
+    
+
+</html>
