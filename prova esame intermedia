@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Prova esame intermedia</title>
+
+    <style>
+        /*resetto il body e aggiungo qualche opzione di stile*/
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-size: large;
+            font-weight: lighter;
+            background-image:linear-gradient(rgb(233, 233, 239), rgb(103, 169, 239), rgb(233, 233, 239)); 
+            }
+
+        /*cambio il colore alla nav bar e aggiungo alcuni effetti*/
+
+        .navbar {
+            background-image:linear-gradient(rgba(13, 99, 228, 0.863), rgb(103, 169, 239), rgb(233, 233, 239));  
+        } 
+
+        .navbar a:hover {
+            background-color: rgba(16, 16, 169, 0.556);
+        }
+
+        .dropdown-item {
+            background-color: rgba(13, 99, 228, 0.863);
+            color: white;
+        }
+
+        .title-paragraph {
+            padding:10px;
+            text-align: center;
+            color: white;
+            text-shadow: 4px 4px 10px rgb(3, 4, 41);
+         }
+
+
+        /*in questa sezione ci occupiamo della galleria immagini*/
+
+        #misure-foto {height: 800px;}
+
+      /*sezione dedicata al video*/
+
+        .video, .container-mapparoma {
+            margin:100px ;
+            padding: 25px;
+            border: 10px;
+            overflow: hidden;
+            color: white;
+            text-shadow: 1px 1px rgba(0, 0, 255, 0.6);
+                }
+        .video-paragraph, .video-youtube, .paragraph-mapparoma, .mapparoma {
+            margin: 10px 50px;
+            padding: 10px;
+            border: 10px;
+            font-size: smaller;
+        }  
+        
+        .video-youtube:hover {
+         filter: sepia();
+        }
+    </style>
+</head>
+<body>
+    <!--in questa sezione inserisco un menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+  <div class="container-fluid">
+<!--aggiungo un icona del sito-->
+    <a class="navbar-brand" href="#">
+      <img src="https://img.freepik.com/psd-gratis/3d-palloncino-isolato-su-sfondo-trasparente_191095-20909.jpg?semt=ais_hybrid&w=740" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+      
+    </a>
+    <a class="navbar-brand" href="#">LoveTravel</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Chi siamo</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">I nostri pacchetti viaggio</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            I nostri viaggi
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Gita a Londra</a></li>
+            <li><a class="dropdown-item" href="#">Gita a Parigi</a></li>
+            <li><a class="dropdown-item" href="#">Gita a Roma</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+<!--in questa sezione inserisco un titolo e un piccolo paragrafo-->
+<div class="title-paragraph">
+<h1>Scopri inseme a noi la città di Roma:</h1>
+<h3>sfoglia la Gallery</h3>
+</div>
+
+<!--inserisco una galleria immagini della città di roma-->
+ <!--INIZIO DELLA SEZIONE CAROSELLO-->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <!--indicatori-->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <!--gruppo immagini-->
+        <div class="carousel-inner">
+        <!--prima immagine del carosello-->
+          <div class="carousel-item active">
+
+        <!--foto che scorre-->
+            <img src="https://www.lazionascosto.it/wp-content/uploads/2020/02/roma.jpg" class="d-block w-100" id="misure-foto" alt="Il panorama di Roma">
+
+        <!--caption-->
+            <div class="carousel-caption d-md-block" style="background-color: rgba(11, 11, 11, 0.471); text-shadow: 1px 1px black;">
+              <h5>Roma</h5>
+              <p>Scopri insieme a noi le meraviglie della nostra magica capitale</p>
+              <a class="btn btn-light" href="#">Scopri di più</a>
+            </div>
+
+          </div>
+
+          <!--seconda immagine del carosello-->
+          <div class="carousel-item">
+
+           <!--foto che scorre--> 
+            <img src="https://www.walksinsiderome.com/uploads/2020/04/colosseum-at-night.jpg" class="d-block w-100" id="misure-foto" alt="colosseo">
+
+           <!--caption-->
+            <div class="carousel-caption d-md-block" style="background-color: rgba(11, 11, 11, 0.471); text-shadow: 1px 1px black;">
+              <h5>Il Colosseo:il simbolo di Roma</h5>
+              <p>Con i nostri pacchetti ti offriamo la possibilità di visitare il Colosseo al chiaro di luna</p>
+              <a class="btn btn-light" href="#">Scopri di più</a>
+            </div>
+          </div>
+
+          <!--terza immagine del carosello--> 
+          <div class="carousel-item">
+
+          <!--foto che scorre--> 
+            <img src="https://vittoriocasale.it/wp-content/uploads/2021/10/Tutto-sui-musei-vaticani.jpg" class="d-block w-100" id="misure-foto" alt="Musei Vaticani">
+            
+          <!--caption-->
+            <div class="carousel-caption d-md-block" style="background-color: rgba(11, 11, 11, 0.471); text-shadow: 1px 1px black;">
+              <h5>Musei Vaticani</h5>
+              <p>Visiterai i Musei Vaticani e conoscerai tutti i suoi segreti grazie ad una guida esperta e riconosciuta dall ENGT</p>
+              <a class="btn btn-light" href="#">Scopri di più</a>
+            </div>
+
+          </div>
+
+          <!--aggiunta di una slide-->
+
+          <div class="carousel-item">
+
+            <!--foto che scorre--> 
+              <img src="https://i2.res.24o.it/images2010/S24/Documenti/2025/03/18/Immagini/Ritagli/Nel%20Parco%20di%20Villa%20Borghese-U75383603650Umd-1440x752@IlSole24Ore-Web.JPG" class="d-block w-100" id="misure-foto" alt="Villa borghese">
+              
+            <!--caption-->
+              <div class="carousel-caption d-md-block" style="background-color: rgba(11, 11, 11, 0.471); text-shadow: 1px 1px black;">
+                <h5>Ti immergerai nei parchi che hanno ispirato poeti e artisti</h5>
+                <p>Visiterai Villa Borghese con i suoi splendidi giardini e visiterai la sua ricca collezione d'arte</p>
+                <a class="btn btn-light" href="#">Scopri di più</a>
+              </div>
+  
+            </div>
+        </div>
+        <!--fine gruppo immagini-->
+
+        <!--pulsanti freccia-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+      <!--in questa sezione inserisco un video ed una piccola presentazione del video-->
+    <div class="container-fluid">
+
+     <div class="video">
+        <h5 class="video-paragraph">
+            Roma probabilmente nasconde più meraviglie di qualsiasi altra città in Italia, 
+            e forse addirittura in Europa. Con un così incredibile patrimonio storico, culla di uno degli imperi più potenti e i
+            nfluenti del mondo, Roma è stata un punto di riferimento per l’arte, l’architettura e la cultura per alcuni dei più 
+            grandi artisti mai esistiti. Dalle rovine romane, agli edifici antichi più imponenti e magnifici,
+             fino a straordinarie chiese con affreschi e opere d’arte unici, avrete l’imbarazzo della scelta nella Città Eterna.
+             Guarda il video per scoprire che cosa ti aspetta!
+        </h5>
+
+     <!--inserimento del video-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BitGDzsArnE" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen class="video-youtube">
+
+        </iframe>
+       
+
+        </div>
+    <!--inserimento di una mappa di Roma-->
+        <div class="container-mapparoma">
+
+           <h5 class="paragraph-mapparoma">Non vogliamo che tu ti perda!</h5> 
+          <h5 class="paragraph-mapparoma">Segui la mappa per visitare la città!</h5>
+
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.835013057847!2d12.49636531549894!3d41.90278397921995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6192d1f5e3b3%3A0x4c9b1f8c8f8a6c0!2sRoma%2C%20Italia!5e0!3m2!1sit!2sit!4v1680000000000!5m2!1sit!2sit"  width="500" height="350" loading="lazy"   referrerpolicy="no-referrer-when-downgrade" class="mapparoma"> </iframe>
+
+        </div>
+
+    <!--apro un div con i seguici su-->
+
+    <div class="1-sezione" style="text-align: center; margin-top:50px; background-color: rgb(108, 145, 247);">
+      <h5 style="text-align: center; border-top:50px; color: aliceblue; text-shadow: 1px 1px black;">Seguici sui social</h5>
+    </div>
+
+<div>
+    <div class="container text-center mt-5">
+ 
+  <div class="d-flex justify-content-center gap-3 mt-3">
+     <a href="https://facebook.com" target="_blank" class="text-decoration-none text-primary fs-3">
+      <i class="fab fa-facebook"></i>
+     </a>
+
+     <a href="https://instagram.com" target="_blank" class="text-decoration-none text-danger fs-3">
+      <i class="fab fa-instagram"></i>
+     </a>
+
+     <a href="https://twitter.com" target="_blank" class="text-decoration-none text-info fs-3">
+      <i class="fab fa-twitter"></i>
+     </a>
+
+     <a href="https://linkedin.com" target="_blank" class="text-decoration-none text-primary fs-3">
+      <i class="fab fa-linkedin"></i>
+     </a>
+
+  </div>
+</div>
+</div>
+      
+</body>
+</html>
