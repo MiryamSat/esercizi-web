@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!--installazione bootstrap in locale-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Bootsrap/bootstrap/css/bootstrap.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Princess+Sofia&display=swap" rel="stylesheet">
+<!--installazione bootstrap in locale-->  
+    <title>esercizi di calcolo</title>
+
+    <style>
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-image: url(https://thumbs.dreamstime.com/b/formule-di-calcolo-della-geometria-matematica-o-fisica-cifre-algebra-figure-e-grafici-scarabocchio-grafico-dell-istruzione-237972253.jpg);
+}
+
+/*css del menu*/
+
+.box-calcolo {
+    margin-top: 50px;
+    margin-left: 450px;
+    background-color: rgba(0, 128, 0, 0.816);
+    height:450px;
+    width:600px;
+    overflow: hidden;
+    text-align:center;
+    box-shadow: 0 4px 8px rgb(16, 249, 16), 0 6px 20px rgba(55, 154, 55, 0.2);
+    border-radius: 5%;
+}
+
+#risultato {
+            background-color: orange;
+            color: red;
+        }
+
+.bottone {
+        background-color: yellow;
+        padding: 5px;
+         }
+    </style>
+</head>
+<body>
+    
+<!--menu della pagina-->
+
+<!--inizio menù di navigazione--> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Geometria per ragazzi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Calcoli geometrici</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Calcoli matematici</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Compiti e giochi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Info e Iscrizione</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!--fine menù di navigazione--> 
+
+
+<!--calcolo dell'area di un quadrato-->
+<div class="box-calcolo">
+
+  <h2 style="color: yellow;">Calcola l'area di un quadrato</h2>
+    <h3 style="color: orange;">clicca qui sotto per scrivere le misure!</h3>
+
+ <button onclick="calcolaArea()" class="bottone">Calcola Area</button>
+
+  <p id="risultato"></p>
+
+  <!--inserisco Java Script-->
+<script>
+
+  function calcolaArea() {
+   var lato = prompt("Inserisci la lunghezza del lato del quadrato:");
+   var area = lato * lato;
+   document.getElementById("risultato").innerHTML = "L'area del quadrato è: " + area;
+}
+
+ </script>
+</div> 
+
+</body>
+</html>
