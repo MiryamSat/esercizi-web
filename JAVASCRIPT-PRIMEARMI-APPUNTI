@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>java script</h1>
+    <p>java script, insieme ad html e css rappresenta la base del web</p>
+    
+<script>
+//questo è un commento su una sola riga//
+/*questo è un commento che può essere utilizzato per più righe di testo*/
+
+/*questo sotto è un esempio di java script. Tanto per cominciare la sintassi di java script è formata da dichiarazioni 
+(le dichiarazione sono delle regole che indicano al programma come deve comportarsi)
+ al cui interno si trovano le variabili e le espressione.
+ con var vengono indicate le variabili: come in una specie di scatola possiamo mettere al suo interno un contenuto. in questo caso, abbiamo assegnato
+ un nome alle variabili, assegnato un valore numerico var x=14; e fatto fare una piccola operazione che vedremo stampata sul nostro browser tramite 
+ document.write().quest ultima è una funzione predefinita di java script
+var x = 14;
+var y = 670;
+var z = x*y;
+document.write (z);
+In JavaScript, le variabili possono anche essere dichiarate senza che venga loro assegnato alcun valore iniziale.
+ Ciò è utile per le variabili che dovrebbero contenere valori come gli input dell'utente.
+var userName;
+
+possiamo inoltre dichiarare più variabili tutte nella stessa riga nel seguente modo:*/
+var name = "Peter Parker", var age =21, var isMarried = false;
+
+/* Troviamo inoltre due tipi di variabili un pò particoli che sono let e const. Sono state introdotte dal nuovo sistema EcmaScript. 
+A differenza di var, che indica una variabile molto generica 
+queste due variabili di stampo più moderno si distinguono nel seguente modo:
+
+-let è una variabile che serve a dichiarare un valore che potrebbe cambiare.
+ Ha scopo di blocco, cioè è visibile solo all'interno del blocco {} in cui è stata dichiarata.È più sicura di var perché evita problemi di hoisting e scope globale.
+esempio: 
+let nome = "Luca";
+nome = "Marco"; // OK, si può cambiare
+console.log(nome); // "Marco"
+
+
+-const è una variabile con cui si può indicare un valore che rimane sempre uguale e che non può essere modificato.
+esempio: 
+const pi = 3.14;
+// pi = 3.1415; // ❌ Errore! Non si può modificare
+
+entrambi però NON POSSONO ESSERE RIASSEGNATI NELLO STESSO BLOCCO!
+
+gli output
+Ci sono alcune situazioni in cui potresti dover generare output dal tuo codice JavaScript. 
+Ad esempio, potresti voler vedere il valore della variabile o scrivere un messaggio nella console del browser per aiutarti
+ a eseguire il debug di un problema nel codice JavaScript in esecuzione e così via.
+ In questi casi utilizziamo funsioni come:
+ - console.log(x) il quale stamperà il contenuto nella console del programma
+ -document.write(x) che stamperà direttamente in pagina
+ -alert(Hello World); stamperà un popup
+ -document.getElementById("greet").innerHTML = "Hello World!"; il nostro output si troverà all'interno di un html tramide un id
+ -document.getElementByClass/ByName sono output simili a quello di id
+
+ i dati Java Script:
+ naturalmente i dati di java script possono essere di diverso tipo. esistono dati che vengono definiti VALORI PRIMITIVI (O PRIMARI) 
+ e VALORI COMPOSTI (O DI RIFERIMENTO) e DATI SPECIALI.
+
+ VALORI PRIMITIVI:
+-stringhe: var a = 'Hi there!';  // using single quotes
+-numeri: var a = 25;         // integer
+-valori booleani: var isReading = true;   // yes, I'm reading
+
+VALORI COMPOSTI:
+
+-tipo Object: questo tipo di dato può essere abbastanza complesso al cui interno possono essere contenuti più dati insieme.
+IN PARTICOLARE UN OGGETTO E' UNA COPPIA DI DATI CHIAVE-VALORE IN CUI OGNI CHIAVE E' UNA STRINGA A CUI VIENE ASSEGNATO UN VALORE DI VARIO TIPO
+CHE PUO' ESSERE UN NUMERO, UN VALORE BOOLEANO, UN ARRAY, UNA STRINGA O UNA FUNZIONE. Per definire il tag di apertura di un oggetto si utilizzano
+le parentesi graffe {}
+ecco un esempio: 
+
+var car = {
+    "modal": "BMW X3",
+    "color": "white",
+    "doors": 5
+}
+
+-tipo Array: un array è un tipo di oggetto utilizzato per registrare più dati in una singola variabile. In un array ogni valore è chiamato elemento 
+e HA UNA POSIZIONE NUMERICA NOTA COME INDICE E PUO' 
+CONTENERE QUALSIASI TIPO DI DATO: numeri, stringhe, valori booleani, funzioni, oggetti e persino altri array. Ricorda bene che un array inizia da 0.
+Quindi arr[0]. esempio:
+var colors = ["Red", "Yellow", "Green", "Orange"];
+var cities = ["London", "Paris", "New York"];
+ 
+alert(colors[0]);   // Output: Red
+alert(cities[2]);   // Output: New York
+In questo esempio sullo schermo verrà stampato il valore RED in quanto [0] e New York in quanto [2]
+
+-tipo dati Della Funzione:
+In Java Script una funzione è un blocco di codice che esegue un compito preciso e può essere riutilizzato più volte. 
+Poiché le funzioni sono oggetti, è quindi possibile assegnarle a variabili, come mostrato nell'esempio seguente:
+
+var greeting = function(){ 
+    return "Hello World!"; 
+}
+ 
+// Check the type of greeting variable
+alert(typeof greeting) // Output: function
+alert(greeting());     // Output: Hello World!
+
+OPERATORI:
+Gli operatori Java Script sono simboli che dicono a java script di eseguire un certo tipo di operazione. 
+Abbiamo diversi tipi di operatori:
+-OPERATORI ARITMETICI:
+Gli operatori aritmetici vengono utilizzati per eseguire operazioni aritmetiche comuni:
+Operatore	Descrizione	Esempio	Risultato
++	Aggiunta	$x + $y	Somma di $ xe $ y
+-	Sottrazione	$x - $y	Differenza di $ xe $ y.
+*	Moltiplicazione	$x * $y	Prodotto di $ xe $ y.
+/	Divisione	$x / $y	Quoziente di $ xe $ y
+%	Modulo	$x % $y	Resto di $ x diviso per $ y
+
+esempio:
+var x = 10;
+var y = 4;
+alert(x + y); // 0utputs: 14
+alert(x - y); // 0utputs: 6
+alert(x * y); // 0utputs: 40
+alert(x / y); // 0utputs: 2.5
+alert(x % y); // 0utputs: 2
+
+-OPERATORI DI ASSEGNAZIONE:
+Gli operatori di assegnazione vengono utilizzati per assegnare valori alle variabili.
+Operatore	Descrizione	Esempio	Equivale a
+=	Assegnare	x = y	x = y
++=	Aggiungi e assegna	x += $	x = x + y
+-=	Sottrai e assegna	x -= y	x = x - y
+*=	Moltiplica e assegna	x *= y	x = x * y
+/=	Dividi e assegna il quoziente	x /= y	x = x / y
+%=	Dividi e assegna il modulo	x %= y	x = x % y
+
+esempio: 
+x = 10;
+alert(x); // Outputs: 10
+ 
+x = 20;
+x += 30;
+alert(x); // Outputs: 50
+ 
+x = 50;
+x -= 20;
+alert(x); // Outputs: 30
+ 
+x = 5;
+x *= 25;
+alert(x); // Outputs: 125
+ 
+x = 50;
+x /= 10;
+alert(x); // Outputs: 5
+ 
+x = 100;
+x %= 15;
+alert(x); // Outputs: 10
+
+-OPERATORI DI STRINGA:
+Ci sono due operatori che possono essere usati anche per le stringhe.
+Operatore	Descrizione	Esempio	Risultato
++	Concatenazione	str1 + str2	Concatenazione di str1 e str2
++=	Assegnazione di concatenazione	str1 += str2	Aggiunge str2 a str1
+Il seguente esempio ti mostrerà questi operatori di stringa in azione:
+
+Esempio
+
+var str1 = "Hello";
+var str2 = " World!";
+ 
+alert(str1 + str2); // Outputs: Hello World!
+ 
+str1 += str2;
+alert(str1); // Outputs: Hello World!
+
+-OPERATORI DI INCREMENTO E DECREMENTO
+Gli operatori di incremento e decremento vengono utilizzati per aumentare o diminuire il valore di una variabile
+
+++x	Pre-incremento	Aumenta x di uno, quindi restituisce x
+x++	Post-incremento	Restituisce x, quindi incrementa x di uno
+--x	Pre-decremento	Decrementa x di uno, quindi restituisce x
+x--	Post-decremento	Restituisce x, quindi decrementa x di uno
+
+esempio
+x = 10;
+alert(++x); // Outputs: 11
+alert(x);   // Outputs: 11
+quindi in questo caso il valore 10 aumenterà di una unità
+
+-OPERATORI LOGICI
+Gli operatori logici vengono in genere utilizzati per combinare istruzioni condizionali. sono strumenti fondamentali per eseguire 
+operazioni logiche, spesso utilizzati nelle condizioni (if, while, ecc.) per controllare il flusso del programma. 
+
+Operatore	Nome	Esempio	  Risultato
+&&	         E	     x && y	  Vero se sia x che y sono vere
+||	         O	     x || y	  Vero se x o y sono veri
+!	         Non	!x	      Vero se x non è vero
+
+esempio:
+var year = 2018;
+ 
+// Leap years are divisible by 400 or by 4 but not 100
+if((year % 400 == 0) || ((year % 100 != 0) && (year % 4 == 0))){
+    alert(year + " is a leap year.");
+} else{
+    alert(year + " is not a leap year.");
+}
+
+
+-OPERATORI DI CONFRONTO
+Gli operatori di confronto vengono utilizzati per confrontare due valori in modo booleano.
+
+Operatore	Nome	     Esempio	                     Risultato
+==	        Pari	     x == y	                      Vero se x è uguale a y
+===     	Identico	 x === y  	              Vero se x è uguale a y e sono dello stesso tipo
+!=      	Non uguale	 x != y	                  Vero se x non è uguale a y
+!==	        Non identico x !== y	              Vero se x non è uguale ay o non sono dello stesso tipo
+<	        Meno di	     x < y	                      Vero se x è minore di y
+>	        Più grande di	x > y	              Vero se x è maggiore di y
+>=	        Maggiore o uguale a	x >= y	          Vero se x è maggiore o uguale a y
+<=	        Minore o uguale a	x <= y	          Vero se x è minore o uguale a y
+
+esempio:
+
+var x = 25;
+var y = 35;
+var z = "25";
+ 
+alert(x == z);  // Outputs: true
+alert(x === z); // Outputs: false
+alert(x != y);  // Outputs: true
+alert(x !== z); // Outputs: true
+alert(x < y);   // Outputs: true
+alert(x > y);   // Outputs: false
+alert(x <= y);  // Outputs: true
+alert(x >= y);  // Outputs: false
+
+
+
+</script>
+   
+</body>
+</html>
