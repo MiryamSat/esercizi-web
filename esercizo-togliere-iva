@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <title>Progetto-shop</title>
+
+    <style>
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+        /*card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body>
+
+    <!--creazione di un menu per la pagina web di vendita all'ingrosso di materiali agricoli e animali-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Horses Market UK</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Riders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Horse</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Stable & Field
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"></a>Horse Grooming Kits, Boxes & Bags</li>
+            <li><a class="dropdown-item" href="#">Horse Brushes</a></li>
+            <li><hr class="dropdown-divider">Body & Face Brushes</li>
+            <li><a class="dropdown-item" href="#">Dandy Brushes</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-disabled="false" style="color: red;">sale%</a>
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+    <!--queste card contengono al loro interno dei prodotti in promozione con immagine, breve descrizione del prodotto e prezzo al pubblico. 
+    cliccando sul pulsante si ottiene invece il prezzo privato di iva riservato ai commercianti-->
+    
+    <h2 style="text-align:center; color: rgb(255, 0, 0);">Take a look at this sale products!</h2>
+
+<div class="card">
+  <img src="https://s.alicdn.com/@sc04/kf/A5c0e0e59f0a04186800cfaa284a8c2e2N.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Equine Grazing Muzzle</h1>
+  <p class="price">$64.99</p>
+  <p>Breathable Comfortable Padded Nose Quick Release Throat Lash Riding House Kanpur India Tack Shop</p>
+  <p><button id="prize" onclick="menoiva ()">wholesale price</button></p>
+</div>
+
+<div class="card">
+  <img src="https://assets.efarma.com/transform/2d0dffdb-6d53-45f3-b0fd-5fd7f0bbe7de/EAN_IMG_8055320270154_1-jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>Horse Feed</h1>
+  <p class="price">$59.99</p>
+  <p>When your horse is your teammate you'll do everything you can to help them perform.</p>
+  <p><button>wholesale price</button></p>
+</div>
+
+<div class="card">
+  <img src="https://www.amicafarmacia.com/media/catalog/product/A/F/ribes-horse-30bust-af944902865_1-1-1643278482.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700" alt="Denim Jeans" style="width:100%">
+  <h1>Ribes Horse Snack</h1>
+  <p class="price">$99,99</p>
+  <p>Ribes snack is a modern food supplement for horses</p>
+  <p><button>wholesale price</button></p>
+</div>
+
+<script>
+    function menoiva () {
+    var prezzo = prompt ("enter the price:", "");
+    prezzo/= 1.22;
+    document.getElementById("prize").innerHTML= ("The price of this product with no Value Added Tax is:" + prezzo);
+    }
+
+
+
+   
+ 
+</script>
+
+</body>
+
+</html>
