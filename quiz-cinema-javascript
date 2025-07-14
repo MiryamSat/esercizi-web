@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz con Switch</title>
+
+  <style>
+    body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-weight: lighter;
+      margin: 0px;
+      border: 0px;
+      padding: 0px;
+      background-color: rgba(172, 255, 47, 0.373);
+    }
+    
+    .image {
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden; 
+    }
+
+    header {
+      background-color: rgba(77, 255, 77, 0.648);
+    }
+    h1, h3 {
+      font-weight: lighter;
+      font-size: xx-large;
+      color: white;
+       }
+    
+    button {
+      background-color: rgb(130, 215, 153);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="image">
+      <img src="https://wallpaperaccess.com/full/9339037.jpg">
+    </div>
+    <h1>Quanto sei cinefilo?</h1>
+    <h3>Scoprilo con il nostro test e partecipa all'estrazione di quattro biglietti per il cinema</h3>
+  </header>
+  <div>
+<h2>Chi tra questi registi ha diretto 'Arancia meccanica'?</h2>
+  <button onclick="domanda1('A')">A. Wim Wenders</button>
+  <button onclick="domanda1('B')">B. Peter Jacksonin</button>
+  <button onclick="domanda1('C')">C. Stanley Kubrick.</button>
+
+  <p id="risultato1"></p>
+
+  <script>
+    function domanda1(risposta1) {
+      let messaggio;
+
+      switch (risposta1) {
+        case 'A':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+
+        case 'B':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+
+        case 'C':
+          messaggio = "Complimenti, risposta esatta!";
+          break;
+
+        default:
+          messaggio = "Risposta non valida.";
+      }
+
+      document.getElementById("risultato1").innerText = messaggio;
+    }
+  </script>
+  </div>
+  
+  
+  
+    <div>
+      <h2>Dove abitano gli Hobbit de 'Il Signore degli Anelli'?</h2>
+  <button onclick="domanda2('A')">A. Nella Terra di Mezzo</button>
+  <button onclick="domanda2('B')">B. Nella Terra di Mordor</button>
+  <button onclick="domanda2('C')">C. Nel Regno di Gondor</button>
+
+  <p id="risultato2"></p>
+
+  <script>
+    function domanda2(risposta2) {
+      let messaggio;
+
+      switch (risposta2) {
+        case 'A':
+          messaggio = "Complimenti, risposta esatta!";
+          break;
+        case 'B':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+        case 'C':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+        default:
+          messaggio = "Risposta non valida.";
+      }
+
+      document.getElementById("risultato2").innerText = messaggio;
+    }
+  </script>
+
+  </div>
+
+   <div>
+
+<h2>Qual è la battuta più famosa di 'Via col vento'?</h2>
+  <button onclick="domanda3('A')">A. Mi avevi già convinta al 'ciao'</button>
+  <button onclick="domanda3('B')">B. Nessun posto è bello come casa mia</button>
+  <button onclick="domanda3('C')">C. Francamente me ne infischio</button>
+
+  <p id="risultato3"></p>
+
+  <script>
+    function domanda3(risposta3) {
+      let messaggio;
+
+      switch (risposta3) {
+        case 'A':
+          messaggio = "Peccato, risposta sbagliata";
+          break;
+        case 'B':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+        case 'C':
+          messaggio = "Complimenti, risposta esatta!";
+          break;
+        default:
+          messaggio = "Risposta non valida.";
+      }
+
+      document.getElementById("risultato3").innerText = messaggio;
+    }
+  </script>
+
+
+   </div>
+
+   <div>
+    <h2>Quale film è stato il primo a mostrare una toilette sullo schermo?</h2>
+  <button onclick="domanda4('A')">A. La finestra sul cortile</button>
+  <button onclick="domanda4('B')">B. Gli uccelli</button>
+  <button onclick="domanda4('C')">C. Psyco</button>
+
+  <p id="risultato4"></p>
+
+  <script>
+    function domanda4(risposta4) {
+      let messaggio;
+
+      switch (risposta4) {
+        case 'A':
+          messaggio = "Peccato, risposta sbagliata";
+          break;
+        case 'B':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+        case 'C':
+          messaggio = "Complimenti, risposta esatta!";
+          break;
+        default:
+          messaggio = "Risposta non valida.";
+      }
+
+      document.getElementById("risultato4").innerText = messaggio;
+    }
+  </script>
+
+   </div>
+
+   <div>
+        <h2>Qual'è il vero nome dell'attrice Marlene Dietrich?</h2>
+  <button onclick="domanda5('A')">A. Marie Magdalena von Losch</button>
+  <button onclick="domanda5('B')">B. Norma Jeane Mortenson</button>
+  <button onclick="domanda5('C')">C. Myrna Adele Williams</button>
+
+  <p id="risultato5"></p>
+
+  <script>
+    function domanda5(risposta5) {
+      let messaggio;
+
+      switch (risposta5) {
+        case 'A':
+          messaggio = "Complimenti, risposta esatta";
+          break;
+        case 'B':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+        case 'C':
+          messaggio = "Complimenti, risposta sbagliata!";
+          break;
+        default:
+          messaggio = "Risposta non valida.";
+      }
+
+      document.getElementById("risultato5").innerText = messaggio;
+    }
+  </script>
+   </div>
+    
+<div>
+        <h2>'Sei solo chiacchere e distintivo, chiacchere e distintivo!'. Da quale film è tratta questa frase?</h2>
+  <button onclick="domanda6('A')">A. C'era una volta in America</button>
+  <button onclick="domanda6('B')">B. Gli intoccabili</button>
+  <button onclick="domanda6('C')">C. Gangs of New York</button>
+
+  <p id="risultato6"></p>
+
+  <script>
+    function domanda6(risposta6) {
+      let messaggio;
+
+      switch (risposta6) {
+        case 'A':
+          messaggio = "Peccato, risposta sbagliata";
+          break;
+        case 'B':
+          messaggio = "Complimenti, risposta esatta!";
+          break;
+        case 'C':
+          messaggio = "Peccato, risposta sbagliata!";
+          break;
+        default:
+          messaggio = "Risposta non valida.";
+      }
+
+      document.getElementById("risultato6").innerText = messaggio;
+    }
+  </script>
+   </div>
+    
+
+</body>
+</html>
