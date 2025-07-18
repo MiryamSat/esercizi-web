@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      background-image: url(https://media.istockphoto.com/id/622308886/it/vettoriale/rock-dipinti-schizzo-per-la-progettazione.jpg?s=612x612&w=0&k=20&c=qazjNOZPTzMOoCxKOED1TclICgU-UVCRLDOsGRJUTDQ=);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .spazio-quiz {
+      background-color: white;
+      margin:110px;
+      padding:130px;
+      border:150px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),   /* ombra scura in basso a destra */-5px -5px 15px rgba(255, 255, 255, 0.8); /* luce chiara in alto a sinistra */
+
+    }
+  </style>
+
+</head>
+<body>
+  <div class="spazio-quiz">
+  <h1 style="color: red; text-decoration: underline;">Esercitati per la prossima verifica di Storia con questo quiz!</h1>
+
+<div class="prima-domanda">
+<h3>Quali furono i principali cambiamenti culturali che si originarono nel Mesolitico?</h3>
+
+ <label>
+  <input type="radio" name="mesolitico" value="1" onclick="verificaRisposta(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+ 
+  L'area europea conosce un notevole sviluppo artistico caratterizzato dalla produzione di statuette colorate.
+ </label><br>
+
+ <label>
+  <input type="radio" name="mesolitico" value="2" onclick="verificaRisposta(this.value)"> 
+  Nell'area mediterranea fiorisce la produzione di ceramiche colorate.
+ </label><br>
+
+ <label>
+  <input type="radio" name="mesolitico" value="3" onclick="verificaRisposta(this.value)">
+   Nell'area mediterranea l'arte si riduce alla lavorazione di ciottoli su cui erano tracciati segni con l'ocra rossa,
+   mentre in Giappone si inizia a lavorare la ceramica
+ </label><br>
+
+ <p id="risultato"></p>
+
+ <script>
+
+function verificaRisposta(risposta) {
+  if (risposta === "3") {
+    document.getElementById("risultato").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+  </div>
+ 
+<div class="seconda-domanda">
+<h3>Quali furono le prime forme di espressione artistica dell'età preistorica?</h3>
+
+ <label>
+  <input type="radio" name="preistoria" value="4" onclick="verificaRisposta2(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+ La costruzione di grandi tombe votive durante il Paleolitico inferiore.
+ </label><br>
+
+ <label>
+  <input type="radio" name="preistoria" value="5" onclick="verificaRisposta2(this.value)"> 
+  La produzione di piccole statuette, chiamate Veneri preistoriche e risalenti al Paleolitico medio.
+ </label><br>
+
+ <label>
+  <input type="radio" name="preistoria" value="6" onclick="verificaRisposta2(this.value)">
+   Pitture e incisioni su pareti o su oggetti mobili risalenti al Paleolitico superiore.
+ </label><br>
+
+ <p id="risultato2"></p>
+
+ <script>
+
+function verificaRisposta2(risposta2) {
+  if (risposta2 === "6") {
+    document.getElementById("risultato2").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato2").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+<div class="terza-domanda">
+<h3>La Preistoria è la storia dell'uomo fino:</h3>
+
+ <label>
+  <input type="radio" name="preistoria-2" value="7" onclick="verificaRisposta3(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+  all'invenzione della scrittura. 
+ </label><br>
+
+ <label>
+  <input type="radio" name="preistoria-2" value="8" onclick="verificaRisposta3(this.value)"> 
+    all'invenzione della pittura rupestre.
+ </label><br>
+
+ <label>
+  <input type="radio" name="preistoria-2" value="9" onclick="verificaRisposta3(this.value)">
+   alla scoperta della pietra scheggiata.
+ </label><br>
+
+ <p id="risultato3"></p>
+
+ <script>
+
+function verificaRisposta3(risposta3) {
+  if (risposta3 === "7") {
+    document.getElementById("risultato3").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato3").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+
+<div class="quarta-domanda">
+<h3>Quale civiltà è conosciuta per le sue piramidi e l'ingegneria avanzata?</h3>
+
+<label>
+  <input type="radio" name="piramidi" value="10" onclick="verificaRisposta4(this.value)">
+  La civiltà Maya.
+</label><br>
+
+<label>
+  <input type="radio" name="piramidi" value="11" onclick="verificaRisposta4(this.value)">
+  La civiltà Egizia.
+</label><br>
+
+<label>
+  <input type="radio" name="piramidi" value="12" onclick="verificaRisposta4(this.value)">
+  L'antica civiltà cinese.
+</label><br>
+
+<p id="risultato4"></p>
+
+<script>
+function verificaRisposta4(risposta4) {
+  if (risposta4 === "11") {
+    document.getElementById("risultato4").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato4").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+</script>
+
+
+<div class="quinta-domanda">
+<h3>Quale tra le seguenti antiche civiltà è accreditata per aver sviluppato per prima la scrittura cuneiforme, 
+  uno dei più antichi sistemi di scrittura conosciuti,
+   utilizzato principalmente per registrare transazioni economiche, testi religiosi e leggi?</h3>
+
+ <label>
+  <input type="radio" name="scrittura" value="12" onclick="verificaRisposta5(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+ Gli Egizi.
+ </label><br>
+
+ <label>
+  <input type="radio" name="scrittura" value="13" onclick="verificaRisposta5(this.value)"> 
+  I Sumeri.
+ </label><br>
+
+ <label>
+  <input type="radio" name="scrittura" value="14" onclick="verificaRisposta5(this.value)">
+   Gli Ittiti
+ </label><br>
+
+ <p id="risultato5"></p>
+
+ <script>
+
+function verificaRisposta5(risposta5) {
+  if (risposta5 === "13") {
+    document.getElementById("risultato5").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato5").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+<div class="sesta-domanda">
+<h3>Quale tra le seguenti civiltà è storicamente riconosciuta per aver scoperto e sviluppato per prima la polvere da sparo, 
+  un'invenzione che avrebbe rivoluzionato la guerra, l'ingegneria e persino i fuochi d'artificio?</h3>
+
+ <label>
+  <input type="radio" name="polvere-sparo" value="15" onclick="verificaRisposta6(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+ I Romani – Conosciuti per le loro avanzate tecnologie militari e ingegneristiche, ma non associati all'invenzione della polvere da sparo..
+ </label><br>
+
+ <label>
+  <input type="radio" name="polvere-sparo" value="16" onclick="verificaRisposta6(this.value)"> 
+   I Cinesi – Furono i primi, durante la dinastia Tang, a mescolare salnitro, carbone e zolfo, dando origine alla polvere da sparo.
+ </label><br>
+
+ <label>
+  <input type="radio" name="polvere-sparo" value="17" onclick="verificaRisposta6(this.value)">
+   Gli Arabi – Hanno contribuito alla diffusione della polvere da sparo in Occidente, ma non ne furono gli inventori.
+ </label><br>
+
+ <p id="risultato6"></p>
+
+ <script>
+
+function verificaRisposta6(risposta6) {
+  if (risposta6 === "16") {
+    document.getElementById("risultato6").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato6").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+<div class="settima-domanda">
+<h3>Quale civiltà antica è famosa per aver costruito un complesso sistema di acquedotti e fognature,
+   dimostrando una sorprendente conoscenza dell’ingegneria idraulica per l’epoca?</h3>
+
+ <label>
+  <input type="radio" name="aquedotti" value="18" onclick="verificaRisposta7(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+  I Persiani – Conosciuti per i qanat, sistemi sotterranei di irrigazione, ma non per infrastrutture urbane complesse.
+ </label><br>
+
+ <label>
+  <input type="radio" name="aquedotti" value="19" onclick="verificaRisposta7(this.value)"> 
+  I Romani – Realizzarono imponenti opere idrauliche per trasportare acqua potabile e smaltire le acque reflue nelle città.
+ </label><br>
+
+ <label>
+  <input type="radio" name="preistoria" value="20" onclick="verificaRisposta7(this.value)">
+   I Greci – Svilupparono alcune tecniche idrauliche, ma non raggiunsero lo stesso livello di complessità urbana.
+ </label><br>
+
+ <p id="risultato7"></p>
+
+ <script>
+
+function verificaRisposta7(risposta7) {
+  if (risposta7 === "19") {
+    document.getElementById("risultato7").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato7").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+<div class="ottava-domanda">
+<h3>Quale civiltà precolombiana è celebre per le sue avanzate conoscenze astronomiche
+   e per aver sviluppato un calendario estremamente preciso?</h3>
+
+ <label>
+  <input type="radio" name="astronomia" value="21" onclick="verificaRisposta8(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+  I Toltechi – Una civiltà influente in Mesoamerica, ma con meno documentazione diretta riguardo a sistemi astronomici complessi.
+ </label><br>
+
+ <label>
+  <input type="radio" name="astronomia" value="22" onclick="verificaRisposta8(this.value)"> 
+  Gli Olmechi – Considerati una civiltà madre della Mesoamerica, ma con conoscenze astronomiche meno dettagliate rispetto ad altre culture successive.
+ </label><br>
+
+ <label>
+  <input type="radio" name="astronomia" value="23" onclick="verificaRisposta2(this.value)">
+    I Maya – Hanno elaborato calendari sofisticati basati su cicli solari e lunari, strettamente legati alle loro pratiche religiose.
+ </label><br>
+
+ <p id="risultato8"></p>
+
+ <script>
+
+function verificaRisposta8(risposta8) {
+  if (risposta8 === "22") {
+    document.getElementById("risultato8").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato8").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+<div class="nona-domanda">
+<h3>Quale tra le seguenti caratteristiche è comunemente associata alla civiltà dell’Antico Egitto?</h3>
+
+ <label>
+  <input type="radio" name="egitto" value="23" onclick="verificaRisposta9(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+ L’uso della scrittura cuneiforme per documenti religiosi e amministrativi
+ </label><br>
+
+ <label>
+  <input type="radio" name="egitto" value="24" onclick="verificaRisposta9(this.value)"> 
+  L’organizzazione sociale basata su città-stato indipendenti con re locali
+ </label><br>
+
+ <label>
+  <input type="radio" name="egitto" value="25" onclick="verificaRisposta9(this.value)">
+  La costruzione di grandi templi e piramidi come espressione del potere religioso e politico
+ </label><br>
+
+ <p id="risultato9"></p>
+
+ <script>
+
+function verificaRisposta9(risposta9) {
+  if (risposta9 === "25") {
+    document.getElementById("risultato9").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato9").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+<div class="decima-domanda">
+<h3>Quale tra le seguenti affermazioni descrive correttamente una caratteristica storica della Mezzaluna Fertile?</h3>
+
+ <label>
+  <input type="radio" name="mezzaluna" value="26" onclick="verificaRisposta10(this.value)"> 
+  <!-- 
+   thisvalue accede al valore dell'elemento HTML selezionato
+  -->
+ Fu una delle prime aree al mondo in cui si svilupparono l’agricoltura e le prime forme di insediamento urbano
+ </label><br>
+
+ <label>
+  <input type="radio" name="mezzaluna" value="27" onclick="verificaRisposta10(this.value)"> 
+  Era una regione prevalentemente desertica e scarsamente abitata fino all’epoca romana
+ </label><br>
+
+ <label>
+  <input type="radio" name="mezzaluna" value="28" onclick="verificaRisposta10(this.value)">
+   Era una zona montuosa isolata, priva di grandi fiumi e quindi poco adatta allo sviluppo agricolo
+ </label><br>
+
+ <p id="risultato10"></p>
+
+ <script>
+
+function verificaRisposta10(risposta10) {
+  if (risposta10 === "26") {
+    document.getElementById("risultato10").innerText = " 😀 Risposta esatta!";
+  } else {
+    document.getElementById("risultato10").innerText = " 😓 Risposta sbagliata!";
+  }
+}
+
+ </script>
+</div>
+
+  </div>
+
+  
+</body>
+</html>
