@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Web Solo Java Script</title>
+</head>
+<body>
+    <h1 style="border: 30px; padding: 10px; text-align: center;">Torre di Londra</h1>
+    <p id="paragrafo1" style="border: 30px; padding: 10px;"></p>
+    <p id="paragrafo2" style="border: 30px; padding: 10px;"></p>
+    <p id="paragrafo3" style="border: 30px; padding: 10px;"></p>
+    
+
+    <script>
+        document.getElementById("paragrafo1").innerHTML="La <strong>Torre di Londra</strong> è una <a href='#'>fortezza</a> situata nel centro di <a href='#'>Londra</a>, sulla riva nord del <a href='#'>Tamigi</a>. Si trova all'interno del borgo di <a href='#'>Tower Hamlets</a>, separato dal margine orientale della Città di Londra da uno spazio aperto conosciuto come Tower Hill. Fu costruita a partire dalla fine del 1066 come parte della conquista normanna dell'Inghilterra. La Torre Bianca, che conferisce all'intero castello il nome, fu edificata da <a href='#'>Guglielmo il Conquistatore</a> nel 1078, ed è stata un simbolo di risentita oppressione inflitta a Londra dai nuovi sovrani. Il castello è stato utilizzato, a partire dal 1100, come <a href='#'>prigione</a> (Rainulfo Flambard fu il primo a esservi imprigionato) fino al 1952 con la detenzione dei <a href='#'>gemelli Kray</a>, anche se questo non fu mai il suo scopo principale. All'inizio della sua storia, il palazzo servì anche come residenza reale. La torre è un complesso costituito da diversi edifici disposti all'interno di due anelli concentrici di mura e da un fossato. Vi sono state diverse fasi di espansione, soprattutto durante il regno di <a href='#'>Riccardo Cuor di Leone</a>, <a href='#'>Enrico III</a> e <a href='#'>Edoardo I</a>, nei secoli XII e XIII. Il disegno architettonico stabilito alla fine del XIII secolo rimane tutt'oggi, nonostante i vari lavori che si sono susseguiti.";
+
+        document.getElementById("paragrafo2").innerHTML="La Torre di Londra ha svolto un ruolo di primo piano nella storia inglese. Subì svariati assedi e il suo controllo è sempre stato ritenuto fondamentale per il controllo della nazione. Nel corso della sua storia, la Torre di Londra, è stata utilizzata come arsenale, tesoreria, ménagerie, sede della zecca reale, ufficio del pubblico registro e sede dei gioielli della <a href='#'>Corona inglese</a>. Dall'inizio del XIV secolo fino al regno di<a href='#'>Carlo II</a>, l'incoronazione di un monarca era preceduta da una processione dalla Torre all'<a href='#'>Abbazia di Westminster</a>. In assenza del regnante, il <a href='#'>Conestabile</a> della Torre è il responsabile del castello. Durante il periodo medioevale, questa era una posizione di forza e di fiducia. Verso la fine del XV secolo, il castello fu la prigione dei principi nella Torre. Durante il <a href='#'>regno Tudor</a>, la torre venne utilizzata meno come residenza reale e, nonostante i tentativi di ristrutturazione, le sue difese diventarono obsolete per via degli sviluppi dell'artiglieria.";
+        
+        document.getElementById("paragrafo3").innerHTML="Tra il XVI e il XVII secolo l'utilizzo come prigione ebbe la sua fase di picco, quando molti personaggi caddero in disgrazia, come <a href='#'>Elisabetta I</a> quando non era ancora regina. Questo uso portò a coniare la frase 'inviato alla Torre'. Nonostante la sua duratura reputazione di luogo di <a href='#'>tortura</a> e di <a href='#'>mort/a>e, resa popolare da propagandisti religiosi del XVI secolo e da scrittori del XIX secolo, solo sette persone sono state giustiziate all'interno di essa, prima delle due guerre mondiali. Le esecuzioni si sono più frequentemente tenute sulla famosa <a href='#'>Tower Hill</a>, a nord del castello. Nella seconda metà del XIX secolo, istituzioni come la <a href='#'>Royal Mint</a> (Zecca Reale) si spostarono al di fuori della Torre di Londra, lasciando molti edifici vuoti. <a href='#'>Anthony Salvin</a> e <a href='#'>John Taylor</a> colsero l'occasione per riportare la Torre al suo aspetto medievale, sgombrando molte delle vacanti strutture post-medievali. Durante la <a href='#'>prima</a> e <a href='#'>seconda guerra mondiale</a>, la Torre è stata nuovamente utilizzata come prigione e vi sono state le esecuzioni di dodici uomini accusati di spionaggio. Al termine del secondo conflitto mondiale, i danni causati durante la battaglia d'Inghilterra sono stati velocemente riparati e il castello è stato riaperto al pubblico. Oggi la Torre di Londra è una delle attrazioni turistiche più popolari del paese. Sotto la giurisdizione cerimoniale del Conestabile della Torre, fa parte della fondazione <a href='#'>Historic Royal Palaces</a> ed è protetta come patrimonio mondiale dell'umanità. ";
+    
+    </script>
+</body>
+</html>
