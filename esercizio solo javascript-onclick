@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html lang="it">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stampa Testo</title>
+ </head>
+ <body>
+    <button id="bottone" onclick="stampaTesto()" style=' position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);'>Leggi l'articolo</button>
+    <div class="container">
+        <div id="testo"></div>
+    </div>
+    <script>
+        function stampaTesto() {
+
+            document.getElementById ("bottone").style.display = "none";
+
+            var contenuto = `
+                <img src='https://economiacircolare.com/wp-content/uploads/2022/09/educazione-ambientale.jpg' style= 'display: block; margin: 0 auto; border: 2px solid #ccc border-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);'>
+                
+                <h1 style='font-family: Arial; text-align:center; font-size:xl; font-weight:bold; line-heigt:1,5;'><strong>Vietato dire No! il ruolo dell educazione emotiva e del sistema scolastico</strong></h1>
+                <h2  style='font-family: Arial; text-align:center; font-size:xl; line-heigt:2,5px;'><em>L educazione emotiva nell'era dei social: tra studenti fragili, genitori nel caos e sistemi educativi arretrati</em></h2>
+
+                <div style='font-family: Arial; text-align:center; border-top: 10px; padding-top:10px; padding-left:80px; padding-right:80px; line-height:4,5; word-spacing: 5px;'>            
+                <p> Negli ultimi anni, stiamo assistendo con crescente preoccupazione alla difficoltà dei giovani nell?accettare rifiuti e sconfitte. Che si
+                tratti di relazioni amorose, percorsi scolastici o ambizioni professionali, ogni 'no' sembra essere vissuto non come un ostacolo da superare, ma
+                come un attacco personale alla propria identità. I recenti fatti di cronaca nera, al di là delle complesse questioni legate al femminicidio e al patriarcato (temi che meriterebbero
+                un' analisi a parte), evidenziano quanto il rifiuto sia diventato intollerabile per alcuni, al punto da scatenare reazioni estreme contro chi ha
+                semplicemente ha deciso di mettere dei confini. Le cause di questa fragilità sono molteplici: una combinazione pericolosa di fattori culturali, psicologici ed educativi che, insieme,
+                stanno minando la capacità dei giovani di affrontare la frustrazione, il fallimento e il limite.
+                Questa crescente fragilità, è stata recentemente sottolineata da diversi studenti che, durante l?esame di maturità 2025 hanno
+                deciso di non sostenere le prove orali in segno di protesta. Secondo il parere degli studenti non si tratterebbe affatto di mera impreparazione ma
+                di una scelta consapevole nei confronti di un sistema che, non riconosce più l?individuo in quanto tale, ma come parte integrante di un
+                ingranaggio crudele e competitivo.</p>
+
+                <p style='font-family: Arial; text-align:center;'>
+                Questi ultimi avvenimenti hanno suscitato reazioni contrastanti innescando un dibattito fra due parti avverse ma mettendo
+                comunque in luce un disagio profondo: il percorso dei giovani è su una strada tortuosa!
+                È ormai lontano – e per fortuna – il tempo delle bacchettate sulle mani per una poesia non recitata a memoria, o del suono della cinghia che si sfilava dalla cintura, pronta a punire un ritardo o una faccenda domestica trascurata. 
+                Non molti anni fa, la parola del professore o del genitore era legge, e un brutto voto si curava con uno scapaccione. Ma quei genitori,  erano spesso figli di guerre e privazioni: cresciuti in un mondo duro, temprati – e talvolta traumatizzati – da un’educazione fondata sulla paura e sull’obbedienza.
+                La tendenza di oggi, sembra essere invece totalmente opposta: i conflitti vengono spesso evitati, le sconfitte, i “no”, i brutti voti, vengono vissuti come “inaccettabili”.   
+                I genitori di oggi, vivono delle condizioni totalmente diverse da quelli vissuti in precedenza. In un mondo sempre più veloce dove ha contare sono le performance e il rendimento, il tempo da trascorre in famiglia è drasticamente diminuito in virtù di un lavoro sempre più pressante che non concede spazio alle pause. I cambiamenti economici fanno si che i genitori si ritrovano a dover trascurare i figli sempre più spesso. 
+                In questo scenario, il vuoto educativo, viene spesso riempito da un uso spasmodico dei social network da parte dei giovani, diventando spesso uno spazio di confronto e di costruzione dell’identità. </p>
+
+                <p>
+                Un identità però falsata da immagini di perfezione e dalla presentazione di uno stile di vita molto spesso inarrivabile. Il numero dei “like” diventa qui il metro di misura per sapere quanto si è amati e riconosciuti dal resto del gruppo. Il bisogno di approvazione diventa talmente forte da richiedere ad ogni giovane di adeguarsi all’altro, di comprare le stesse scarpe, di avere lo stesso taglio di capelli ignorando l’individuo e la personalità in quanto tale.
+                L’uso spasmodico dei social e la perdita dell’individualità comportano gravi rischi per i giovani. Il confronto costante con modelli idealizzati, spesso impersonati dagli “influencer”, porta molti ragazzi a sentirsi inadeguati, generando una bassa autostima. A questo si aggiunge il timore di essere esclusi o giudicati in base a ciò che si possiede e a come ci si presenta, alimentando una profonda ansia sociale e il rischio concreto di emarginazione e bullismo.    
+                Non meno preoccupante è la possibilità che questo comportamento conduca a un appiattimento del pensiero critico e a una mancata realizzazione personale.
+                A questi fenomeni si sommano i rischi legati all’uso degli smartphone come tramite per accedere all’area sociale-digitale. La dipendenza dall’uso degli smartphone è ormai documentata: studi del Dipartimento di Psichiatria della McGill University in Canada hanno dimostrato come la dipendenza dai social possa mandare in “overdrive” il sistema di ricompensa del cervello. In altre parole, quando riceviamo notifiche, like o apprezzamenti sul nostro operato digitale, il cervello rilascia dopamina, il neurotrasmettitore associato alla ricompensa, spingendoci a cercare continuamente nuove interazioni per rivivere quella sensazione di piacere. 
+                Uno studio condotto dall’Università Cattolica di Milano ha evidenziato inoltre non solo la bassa consapevolezza dei danni legati all’utilizzo di questi strumenti, ma anche un inesorabile abbassamento del rendimento scolastico. Il sovraccarico cognitivo generato dal tempo dedicato alla socialità online, le immagini veloci e le informazioni frammentate riducono drasticamente le capacità di attenzione. Inoltre, il rilascio di dopamina legato alla ricompensa sembra, secondo gli studi, rendere gli sforzi cognitivi più prolungati e difficoltosi durante le ore di studio, con un conseguente aumento dello stress accademico. 
+                I problemi legati alla scuola sono quindi ampiamente dimostrati dai recenti studi scientifici. </p>
+
+                <p>
+                I ragazzi sembrano quindi non essere più in grado di dedicare la loro attenzione allo studio. Del resto però, considerando i fatti recenti inerenti gli studenti che hanno deciso di non “presentarsi” all’orale di maturità bisogna necessariamente riconsiderare il ruolo della scuola oggi e che cosa stia offrendo ai nostri studenti. Sebbene sia acclarata la difficoltà dei ragazzi a dialogare nel mondo reale dobbiamo chiederci che cosa la scuola stia facendo per loro.
+                Spesso il sistema scolastico si dimostra discontinuo e altalenante ma soprattutto poco attento allo studente. Non di rado, è proprio la scuola ad abbandonare il bambino o il ragazzo a sé stesso. 
+                Non sono rari i casi in cui i bambini bullizzati vengono lasciati da soli in primis dai docenti che durante i momenti di solitudine e di difficoltà di questi ragazzi decidono di voltarsi dall’altra parte senza fare nulla. 
+                Ed è proprio cosi che questi studenti si ritrovano da soli nei minuti della ricreazione, magari a piangere in bagno e accovacciati sul banco nella speranza che la scuola finisca il prima possibile! 
+                In casi come questi il rendimento scolastico può naturalmente soffrire di una battuta d’arresto o comunque di un netto peggioramento. </p>
+
+                <p>
+                Probabilmente se anche i docenti si dimostrassero più interessati agli studenti in quanto persone singole si riuscirebbe a farli sopravvivere a tante situazioni emotivamente difficili. È infatti proprio questo a mancare di più nelle scuole: l’emozione! 
+                Non solo un emozione che va insegnata ai ragazzi ma anche un emozione che sembra mancare nei programmi scolastici stessi. Questi ultimi sono ormai standardizzati e obsoleti, fanno riferimento solo ed esclusivamente al testo scolastico, non coinvolgono lo studente e non insegnano nulla di più rispetto a quello che trovano già scritto nel libro. In breve manca l’approfondimento e la passione verso le materie, si insegna per il voto e non per la comprensione dell’argomento. 
+                È chiaro che anche la vita dei docenti non è affatto facile in un mondo dove la maggior parte di loro sono precari e non hanno neppure accesso ai fondi per avere materiale scolastico tale da migliorare le lezioni stesse e creare un coinvolgimento nei ragazzi. 
+                Si è persa inoltre l’autorevolezza del ruolo del professore, il quale oggi come oggi rischia di essere aggredito dai genitori dei ragazzi se osa dare un brutto voto. Questo accade perché sono i genitori stessi a non riuscire ad accettare che i loro figli non eccellano, che non siano perfetti come li hanno immaginati e come tutta la tecnologia intorno a noi ci dice che dovremmo essere. Che cosa resta allora di una scuola in cui non si può più assegnare un brutto voto ma dove non c’è neanche spazio per l’individuo?
+                Una possibile soluzione sarebbe infatti quella di ampliare la prospettiva scolastica aprendosi a nuove materie o a nuove metodologie di insegnamento prendendo magari anche qualche spunto dai sistemi scolasti di altri paesi. Molti esperti in pedagogia suggeriscono infatti di inserire proprio l’educazione affettiva all’interno dei programmi scolastici. Per aiutare i ragazzi nel dialogo e nell’esposizione, di cui sembrano tanto carenti, si potrebbe inoltre inserire dei programmi o delle lezioni di “dibattito” o laboratori di scrittura. 
+                Siamo ormai arrivati a un punto in cui si deve far capire ai ragazzi quanto contano e che cosa posso essere in grado di fare con i giusti strumenti, compresi quelli dell’empatia e non solo della cultura. Devono invece coesistere insieme. </p> 
+
+                <p>di Miryam Saturno</p>
+
+                </div>`;
+
+            document.getElementById("testo").innerHTML = contenuto;
+        }
+
+    </script>
+    
+ </body>
