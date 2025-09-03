@@ -1,0 +1,35 @@
+
+    <!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funzione Integrata con Intelligenza Artificiale</title>
+  <style>
+    body {
+      background-color: rgba(228, 125, 125, 0.718);
+      color: rgb(0, 0, 0);
+      font-family: 'Trebuchet MS', Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Inserisci il tuo nome</h2>
+    <button onclick="saluta()">Mostra Messaggio</button>
+    <p id="risultato"></p>
+  </div>
+
+  <script>
+    function saluta() {
+      let nome = prompt("Qual è il tuo nome?");
+      document.getElementById("risultato").innerHTML = " <span style= 'color: black; font-size: xx-large; '> Ciao " + nome + "! 👋 Benvenuto sul sito. </span>";
+    }
+
+  </script>
+</body>
+</html>
+
+</body>
+</html>
