@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funzione Dinamica con Java Script</title>
+
+    <style>
+          body {
+        background-color: black;
+        color: white;
+    }
+        .box {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+       
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+
+     <h2>Inserisci il tuo anno di nascita per effettuare l'accesso</h2>
+    <button onclick="calcoloEtà(2025)">Calcola</button>
+    <p id="risultatoCalcolo"></p>
+
+    </div>
+   
+
+    <script>
+
+        function calcoloEtà (annoCorrente) {
+            var anno = prompt("Inserisci il tuo anno di nascita:");
+            anno = Number(anno);
+
+            var età = annoCorrente - anno;
+
+            if (età >= 18) {
+                return document.getElementById ("risultatoCalcolo").innerHTML = "Hai" + " " + età + " " +  "anni. Puoi accedere all'interno del sito!!! ";
+            }
+
+            else {
+                document.getElementById ("risultatoCalcolo").innerHTML = " <span style= 'color: red; font-size: xx-large; '> Accesso al sito vietato ai minori di 18 anni! 🔞 </span>";
+            }
+        }
+           
+
+    </script>
+    
+</body>
+</html>
