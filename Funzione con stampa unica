@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unica stampa</title>
+    <style>
+        .bottone {
+            display: block;
+            margin: 20px auto;
+           text-align: center;
+           color: blue;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <button onclick="stampa()" class="bottone">clicca qui per leggere articolo</button>
+
+    <p id="demo"></p>
+
+<script>
+
+    function immagine() {
+    return "<img src='https://www.theserendipityperiodical.it/wp-content/uploads/2021/06/locandina-m.jpg' style= 'display: block; margin: 20px auto; widht: 100%; height: 300px; object-fit: cover; border-radius: 10px;'>";
+    }
+
+    function titolo() {
+        return "<h1 style= 'text-align: center;'>M- IL MOSTRO DI DÜSSELDORF</h1><br><h2 style= 'text-align: center;'>Introduzione</h2>" ;
+        
+    }
+
+    function testo() {
+        return "<p style= 'text-align: center;'>È il 1931, nelle sale cinematografiche tedesche esce il primo film sonoro del regista Fritz Lang, M- Il mostro di Düsseldorf. In una lugubre Berlino (la città di Düsseldorf nel titolo richiama il fatto di cronaca reale), tratteggiata da ombre profonde e palazzi dai lineamenti severi e vuoti, in una vecchia distilleria abbandonata, si svolge un processo. È quello nei confronti di Hans Beckert, meglio conosciuto dai cittadini come ''mostro'', il mostro che per lungo tempo ha terrorizzato ogni famiglia.<br>Un assassino incallito che ha commesso il più grave dei crimini, uccidere bambine. Non un uomo ma un reietto, tanto che, a ergersi a giudici sono i criminali stessi, che lo rifiutano proprio in virtù dei suoi atti.Non un uomo ma un reietto, tanto che, a ergersi a giudici sono i criminali stessi, che lo rifiutano proprio in virtù dei suoi atti. Durante questo processo qualcosa lascia tutti esterrefatti, sono le parole stesse dell'imputato: «Chi sei tu che vuoi giudicarmi? E chi siete voi? Un branco di assassini, di malviventi… Ma chi credete di essere, solo perché sapete come si fa… a scassinare una cassaforte, o ad arrampicarsi sui muri, sui tetti?» e poi prosegue: «Ma io che posso fare? Che altro posso fare? Non ho forse questa maledizione, in me? Questo fuoco, questa voce, questa pena! Quando cammino per le strade ho sempre la sensazione che qualcuno mi stia seguendo.<br>Ma sono invece io che inseguo me stesso...Silenzioso… Ma io lo sento. Sì, spesso ho l'impressione di correre dietro a me stesso. Allora, voglio scappare. Scappare! Ma non posso, non posso fuggire! Devo, devo uscire ed essere inseguito! Devo correre, correre! Le strade senza fine… Voglio andare via… Voglio andare via! Ma con me corrono i fantasmi… di madri, di bambini… Non mi lasciano un momento. Sono sempre là. Sempre! Sempre! Sempre! Soltanto quando uccido. E allora… E poi non mi ricordo più nulla. Dopo… dopo mi trovo dinanzi ad un manifesto e leggo tutto quello che ho fatto. E leggo, leggo… Io ho fatto questo? Ma se non ricordo più nulla! Ma chi potrà mai credermi? Chi può mai sapere come sono fatto dentro, che cos'è che sento urlare nel mio cervello… e come uccido? Non voglio! Devo! Non voglio! Devo! E poi, sento urlare una voce… ma io non la posso sentire! Aiuto! Non posso… non posso… non posso… non posso!.».<br>Queste prime righe tratteggiano la trama e l andamento del primo film sonoro di Lang. La pellicola si pone quindi come uno spunto di riflessione che interessava particolarmente proprio il cinema espressionista tedesco di cui il regista era uno degli esponenti, ovvero lo sdoppiamento della personalità e la malattia mentale. In questo caso Hans Beckert si proclama innocente poiché dominato da una forza oscura che lo porta a commettere tali crimini, sarebbe quindi vittima dei suoi mostri e non un mostro egli stesso. Si può dunque punire quest uomo? E se si, quale può essere la punizione adatta per lui?<br>La pellicola è inoltre ispirata ad eventi realmente accaduti nella città di Düsseldorf inerenti il pluriomicida Peter Kurten, meglio conosciuto come il ''vampiro di Düsseldorf'' e giustiziato proprio nello stesso anno dell'uscita della pellicola. I suoi crimini restano tutt'ora inenarrabili. Non solo violenze sessuali contro prostitute ma successivamente anche nei confronti di bambine di varie età e brutali omicidi caratterizzati da atti di vampirismo. La vita di quest'uomo non era stata certo facile, contrassegnata dai vari maltrattamenti inflitti su di lui e i suoi dodici fratelli ma soprattutto sulla madre, ridotta dal padre ad un mero oggetto. I crimini di Kurten iniziano quindi in giovane età, sotto l'ala di un suo vicino dall aria certamente sinistra, un accalappiacani senza scrupoli colpevole di alcuni reati minori. Sarebbe divenuto un criminale se avesse avuto una vita migliore? Possiamo considerare davvero quest uomo capace di comprendere i suoi crimini?<br>Sono queste le domande che la pellicola cerca di mettere in luce e che sono divenute ormai un cruccio per il Diritto e un approfondito studio da parte delle neuroscienze che ne hanno tratto diverse teorie, ponendosi di fronte alla questione riguardante il libero arbitrio: questi incalliti criminali siano davvero capaci di scegliere? Alcuni studi neuroscientifici tendono a dare una risposta negativa, ritengono che questi criminali sarebbero determinati dal loro cervello nel compiere azioni biasimevoli costringendoci a rivedere lo stato di diritto attuale e a rivedere le pene imposte sui detenuti. In particolare, nel film si evidenzia uno di quei casi di sdoppiamento di personalità di cui le neuroscienze si occupano sempre più nei giorni odierni e che hanno fatto portare a casa di alcuni avvocati una riduzione di pena per i loro assistiti. Certo è riduttivo porre la questione in questi termini poiché la tematica è ben più ampia e non si tratta di vincere un processo ma di analizzare come queste nuove evidenze pongano in auge il problema del libero arbitrio e di come stia cambiando o possa farlo il mondo del diritto.</p>"
+    }
+
+    function stampa() {
+        demo.innerHTML = immagine() + titolo() + testo();
+    }
+
+</script>
+
+</body>
+</html>
