@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creazione di un Oggetto</title>
+
+    <style>
+        body {
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .title {
+            background-color: rgba(127, 187, 255, 0.74);
+            color: white;
+            text-shadow: 2px, 2px, 4px rgba(rgb(21, 6, 71), rgb(123, 143, 183), blue, alpha);
+            text-align: center;
+          
+        }
+
+        .subtitle {
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        .box-demo {
+            display: flex;
+            background-color: rgba(159, 204, 255, 0.368);
+            justify-content: center;
+            align-items: center;
+            
+        }
+ 
+    </style>
+
+</head>
+
+<body>
+    <h1 class="title">Catalogazione bibliotecaria</h1>
+
+    <h2 class="subtitle">risultati della ricerca:</h2>
+
+    <div class="box-demo">
+
+        <p id="demo"></p>
+
+    </div>
+
+    <div>
+        <img src="https://www.bibliotecheinnovative.it/wp-content/uploads/2021/04/img-bottom-pagine.jpg">
+    </div>
+  
+
+    <script>
+     
+        let libro = { titolo: "Il nome della rosa", autore: "Umberto Eco", anno: "1980", genere: "romanzo storico", dewey: "853.914" };
+
+    
+        demo.innerHTML = libro.titolo + " - " +  libro.autore + " (" +  libro.anno + ")<br>" + "Genere: " + libro.genere + "<br>" +  "Dewey: " + libro.dewey;
+    </script>
+</body>
+</html>
