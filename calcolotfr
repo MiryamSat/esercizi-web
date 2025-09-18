@@ -1,0 +1,283 @@
+ <!DOCTYPE html>
+ <html lang="it">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo quota annuale del TFR</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            font-weight: lighter;
+            font-size: large;
+            margin: 20px;
+            background-color: #e4e4e490;
+        }
+/*CODICE PER PARTE DELLA PRESENTAZIONE E IMMAGINE DEL PROFILO DEL DIPENDENTE*/
+
+        h1 h2 {color: #242323;}
+.profilo {
+    background-image: url(https://media.istockphoto.com/id/1395154805/it/vettoriale/progettazione-di-legami-chimici.jpg?s=612x612&w=0&k=20&c=Lh22X-1HcRjz6uhuJKXw9xpydU7S9DKF9TreALflp7I=);
+   text-align: center;
+   margin-bottom: 20px;
+   background-color: rgb(169, 204, 250);
+}
+     .profile-img img {
+              padding: 10px;
+    height: 180px;
+    width: 150px;
+    border-radius: 50%;
+        }
+
+/*CODICE DEDICATO AL GRAFICO*/
+.grafici-agenda {
+    display: flex;
+    justify-content:space-between;
+}
+
+ /*CODICE CSS DELL AGENDA*/
+        .calendar {
+            font-family: sans-serif;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            width: 500px;
+            height: 250px;
+            overflow-y: auto; /* abilita scroll se serve */
+              }
+
+        .calendar h2 {
+            text-align: center;
+             margin-bottom: 20px;
+            color: #333;
+             }
+
+        .days {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+           gap: 15px;
+              }
+
+        .day {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+             }
+
+        .day span {
+         font-weight: bold;
+         margin-bottom: 5px;
+          }
+
+        .day textarea {
+          width: 100%;
+          min-height: 80px;
+          resize: vertical;
+          border: 1px solid #ccc;
+          border-radius: 6px;
+          padding: 5px;
+          font-size: 14px;
+          }
+
+
+/*CODICE DEDICATO ALLA SEZIONE DIPENDENTI*/ 
+
+.calcoli-dipendenti {
+   text-align: center;
+    background-color: rgba(0, 0, 255, 0.196);
+}
+
+/*cambio aspetto dei pulsanti */
+ button {
+    background-color: blue;
+    color: white;
+    border: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    height: 30px ;
+    margin: 10px;
+}
+/*CALCOLATORE DEL TFR*/
+
+.stip-calc {
+    background-color: yellow; /*mette in evidenza la zona di calcolo*/
+}
+#stipendio:focus {
+  background-color: rgb(228, 234, 244);
+}
+
+    </style>
+
+ </head>
+
+ <body>
+
+    <div class="profilo">
+        <h1>Buongiorno, Emma! 👋</h1>
+        <h2>Ti auguriamo una buona giornata di lavoro!</h2>
+        <div class="profile-img">
+           <img src="https://img.freepik.com/foto-gratuito/ritratto-di-una-bella-donna_23-2148860615.jpg?semt=ais_hybrid&w=740&q=80" alt="Immagine del profilo">
+        </div>
+
+    </div>
+
+    <div>
+     <h2>Assunzioni e stipendi:</h2>  
+    </div>
+    
+   <!--Il grafico serve per visionare la carenza di personale nei diversi settori dell'azienda, accanto troviamo un agenda in cui scrivere appunti--> 
+    <div class="grafici-agenda">
+      <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+   <!--Script del grafico copiato da w3school-->
+   <script>
+    const xValues = ["Amministrazione", "It", "Marketing", "HR", "Produzione"];
+    const yValues = [55, 49, 44, 24, 15];
+    const barColors = ["#F0F8FF", "#FAEBD7","#DEB887","#FFF0F5","#D2691E"];
+
+    new Chart("myChart", {
+    type: "bar",
+    data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+
+    },
+
+    options: {
+    legend: {display: false},
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    },
+
+    title: {
+      display: true,
+      text: "Assunzioni per reparto (anno corrente:2025)"
+    }
+  }
+});
+</script>
+
+<!--agenda-->
+   <!--CODICE HTML DELL'AGENDA-->
+    <div class="calendar">
+    <h2>Settimana Corrente</h2>
+    <div class="days">
+        <div class="day">
+            <span>Lun</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+        <div class="day">
+            <span>Mar</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+        <div class="day">
+            <span>Mer</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+        <div class="day">
+            <span>Giov</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+        <div class="day">
+            <span>Ven</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+        <div class="day">
+            <span>Sab</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+        <div class="day">
+            <span>Dom</span>
+            <textarea placeholder="Appunti..."></textarea>
+        </div>
+    </div>
+</div>
+
+<!--JAVA SCRIPT DELL'AGENDA-->
+<script>
+    // Salva automaticamente nel localStorage
+    const textareas = document.querySelectorAll('.day textarea');
+
+    textareas.forEach((ta, i) => {
+        const key = 'agenda-day-' + i;
+        ta.value = localStorage.getItem(key) || '';
+
+        ta.addEventListener('input', () => {
+            localStorage.setItem(key, ta.value);
+        });
+    });
+</script>
+
+       
+    </div>
+
+    <!--SPAZIO DEDICATO AI DIPENDENTI, FILE INERENTI E CALCOLATORE DI TFR-->
+
+    <!--IL CALCOLO DEL TFR E' L'ESERCIZIO DEL DOCENTE-->
+
+    <div class="calcoli-dipendenti">
+
+        <div class="dipendenti">
+          <button onclick="alert('Funzione non ancora attiva')">Accedi alle cartelle dei dipendenti</button>
+          <button onclick="alert('Funzione non ancora attiva')">Accedi ai file curriculum</button>
+    </div>
+
+    <div>
+    <h2>Calcolatore:</h2>
+    <h3>Sistema agevolato di contabilità e verifica!</h3>
+    <button onclick="calcolaTfr()">Calcola</button>
+    <div id="risultato" style="margin-top: 15px;"></div>
+
+    <script>
+        function calcolaTfr() {
+            var risultato = document.getElementById("risultato");
+
+            var stipendio = Number(prompt("Inserisci la quota annua dello stipendio"));
+            if (isNaN(stipendio) || stipendio <= 0) {
+                document.innerHTML("Inserisci un valore valido!");
+                return;
+            }
+
+            var anniLavorati = Number(prompt("Inserisci gli anni lavorati del dipendente"));
+            if (isNaN(anniLavorati) || anniLavorati <= 0) {
+                document.innerHTML("Inserisci un valore valido!");
+                return;
+            }
+
+            var istat = Number(prompt("Inserisci l'aumento Istat in %"));
+            if (isNaN(istat) || istat <= 0) {
+                document.innerHTML("Inserisci un valore valido!");
+                return;
+            }
+
+            // Calcolo TFR lordo e rivalutazione
+            var quotaAnnua = stipendio / 13.5;
+            var tfrLordo = quotaAnnua * anniLavorati;
+
+            var rivalutazioneLorda = 0;
+            for (var anno = 0; anno < anniLavorati; anno++) {
+                var fisso = 0.0115; // 1.15%
+                var parteVariabile = 0.75 * (istat / 100);
+                rivalutazioneLorda += fisso + parteVariabile;
+            }
+
+            var tfrFinale = tfrLordo + (tfrLordo * rivalutazioneLorda);
+            risultato.innerHTML = "TFR stimato: € " + tfrFinale.toFixed(2);
+        }
+    </script>
+</div>
+
+   
+ </body>
+ </html
